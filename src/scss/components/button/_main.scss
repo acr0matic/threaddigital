@@ -3,4 +3,16 @@
 // и подключение дополнительных вариаций
 // -----------------------------------------------------------------------------
 
-@import 'button';
+$button-cta: linear-gradient(90deg, #d11f9c 0%, #f74229 100%);
+$button-cta__hover: none;
+$button-cta__active: none;
+
+$button-outline: linear-gradient(90deg, #d11f9c 0%, #f74229 100%);
+$button-outline__hover: none;
+$button-outline__active: none;
+
+$button-primary: #da2e2b;
+$button-primary__hover: none;
+$button-primary__active: none;
+
+@import "button";
