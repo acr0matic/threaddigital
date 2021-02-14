@@ -1,0 +1,17 @@
+.button-cta {
+  position: relative;
+  z-index: 1;
+
+  border-radius: 18px;
+
+  padding: 22px 50px;
+
+  background-color: transparent;
+  background-image: $button-cta;
+
+  font-size: 26px;
+
+  @include breakpoint($breakpoint-computer) {
+    font-size: $font-size-10;
+  }
+}
