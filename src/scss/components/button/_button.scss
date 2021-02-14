@@ -1,0 +1,20 @@
+.button {
+  border: none;
+  outline: none;
+
+  padding: 22px 46px;
+
+  color: $text-white;
+
+  font-family: Raleway, sans-serif;
+  font-weight: $weight-extrabold;
+  font-size: $font-size-8;
+
+  cursor: pointer;
+
+  @include breakpoint($breakpoint-computer) {
+    padding: 18px 38px;
+
+    font-size: $font-size-12;
+  }
+}

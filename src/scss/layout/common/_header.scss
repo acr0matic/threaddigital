@@ -1,3 +1,51 @@
 // -----------------------------------------------------------------------------
 // В этом файле прописываются все стили относящиеся к шапке сайта
 // -----------------------------------------------------------------------------
+
+header {
+  border-bottom: 1px solid #2e2e2f;
+  padding: 25px 0;
+
+  background-color: $palette-black;
+
+  @include breakpoint($breakpoint-computer) {
+    padding: 20px 0;
+  }
+}
+
+.header {
+  @include flex();
+
+  &__logo {
+    max-width: 160px;
+    margin-right: 110px;
+
+    @include breakpoint($breakpoint-computer) {
+      max-width: 130px;
+      margin-right: 85px;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: 25px;
+
+    text-align: right;
+  }
+
+  &__link {
+    font-size: $font-size-10;
+    font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-12;
+    }
+
+    &--gray {
+      color: $text-gray;
+    }
+  }
+}
