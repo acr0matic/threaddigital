@@ -3,6 +3,13 @@
 // -----------------------------------------------------------------------------
 
 header {
+  position: fixed;
+  z-index: $z-index-header;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
   border-bottom: 1px solid #2e2e2f;
   padding: 25px 0;
 
@@ -20,9 +27,15 @@ header {
     max-width: 160px;
     margin-right: 110px;
 
+    transition: opacity 0.15s ease;
+
     @include breakpoint($breakpoint-computer) {
       max-width: 130px;
       margin-right: 85px;
+    }
+
+    &:hover {
+      opacity: 0.7;
     }
   }
 
@@ -42,10 +55,6 @@ header {
 
     @include breakpoint($breakpoint-computer) {
       font-size: $font-size-12;
-    }
-
-    &--gray {
-      color: $text-gray;
     }
   }
 }
