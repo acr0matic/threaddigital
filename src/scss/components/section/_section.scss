@@ -1,10 +1,33 @@
 .section {
+  margin-top: 250px;
+
+  &__heading {
+    position: relative;
+  }
+
   &__title {
+    margin-bottom: 75px;
+
     font-size: $font-size-3;
     font-family: Raleway, sans-serif;
     font-weight: $weight-black;
 
     letter-spacing: 3px;
+  }
+
+  &__title-background {
+    position: absolute;
+    z-index: -1;
+    bottom: -15px;
+    left: -30px;
+
+    color: #000000;
+
+    font-size: $font-size-0;
+    font-weight: $weight-bold;
+
+    -webkit-text-stroke: 1px #353535;
+    letter-spacing: 14px;
   }
 
   &__description {

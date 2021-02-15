@@ -1,0 +1,9 @@
+.service {
+  .row > div {
+    @for $index from 1 through 10 {
+      &:nth-last-child(#{$index}) {
+        z-index: $index;
+      }
+    }
+  }
+}

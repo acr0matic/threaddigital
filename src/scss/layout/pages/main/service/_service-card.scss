@@ -1,0 +1,178 @@
+.service-card {
+  position: relative;
+  z-index: 1;
+
+  margin-bottom: 100px;
+
+  &__icon {
+    position: absolute;
+    z-index: 2;
+
+    bottom: -90px;
+    left: -70px;
+
+    @include breakpoint($breakpoint-computer) {
+      bottom: -80px;
+      left: -50px;
+      width: 200px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 370px;
+
+    padding: 30px;
+    border-radius: 36px;
+
+    @include breakpoint($breakpoint-computer) {
+      min-height: 260px;
+    }
+
+    &--gradient {
+      background-color: #ff4d05;
+      background-image: radial-gradient(
+        149.59% 762.68% at 0% -155.63%,
+        #ad00ff 0%,
+        rgba(245, 50, 85, 0) 100%
+      );
+    }
+
+    &--red {
+      background-color: #da2e2b;
+    }
+
+    &--purple {
+      background-color: #9127fc;
+    }
+  }
+
+  &__title {
+    margin-bottom: 15px;
+
+    font-size: $font-size-7;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-8;
+    }
+  }
+
+  &__description {
+    font-size: $font-size-8;
+
+    transition: all 0.5s ease;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-12;
+    }
+  }
+
+  &__more {
+    display: flex;
+    align-items: center;
+
+    margin-top: auto;
+    margin-left: auto;
+
+    color: $text-black;
+    font-size: $font-size-9;
+    font-weight: $weight-medium;
+
+    opacity: 0.4;
+
+    cursor: pointer;
+    transition: all 0.15s ease;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-12;
+    }
+
+    &:hover {
+      color: $text-white;
+      opacity: 1;
+
+      rect {
+        fill: $text-white;
+      }
+    }
+  }
+
+  &__arrow rect {
+    transition: all 0.15s ease;
+  }
+
+  &__content {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+
+    visibility: hidden;
+    opacity: 0;
+
+    padding: 30px 30px 30px 30px;
+
+    background-color: #212121;
+
+    border-radius: 36px;
+
+    transition: all 0.5s ease;
+
+    &--visible {
+      height: 105%;
+
+      visibility: visible;
+      opacity: 1;
+    }
+
+    &--open {
+      height: 200%;
+      visibility: visible;
+      opacity: 1;
+
+      @include breakpoint($breakpoint-computer) {
+        height: 210%;
+      }
+
+      .service-card__description {
+        margin-top: 95%;
+
+        @include breakpoint($breakpoint-computer) {
+          margin-top: 110%;
+        }
+      }
+    }
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+
+    margin-top: auto;
+  }
+
+  &__label {
+    color: #909090;
+
+    font-size: $font-size-8;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-12;
+    }
+  }
+
+  &__cost {
+    font-size: $font-size-6;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-9;
+    }
+  }
+}
