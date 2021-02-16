@@ -25,13 +25,13 @@ header {
 
   &__logo {
     max-width: 160px;
-    margin-right: 110px;
+    margin-right: 90px;
 
     transition: opacity 0.15s ease;
 
     @include breakpoint($breakpoint-computer) {
       max-width: 130px;
-      margin-right: 85px;
+      margin-right: 55px;
     }
 
     &:hover {
@@ -50,6 +50,8 @@ header {
   }
 
   &__link {
+    color: $text-gray;
+
     font-size: $font-size-10;
     font-weight: $weight-medium;
 
