@@ -1,0 +1,17 @@
+.button-primary {
+  position: relative;
+  z-index: 1;
+
+  border-radius: 14px;
+
+  padding: 22px 50px;
+
+  background-color: transparent;
+  background-image: $button-cta;
+
+  font-size: 26px;
+
+  @include breakpoint($breakpoint-computer) {
+    font-size: $font-size-10;
+  }
+}

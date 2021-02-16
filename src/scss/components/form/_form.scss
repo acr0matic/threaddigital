@@ -1,0 +1,30 @@
+.form {
+  &__action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 35px;
+
+    @include breakpoint($breakpoint-computer) {
+      margin-top: 30px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+
+    &--send {
+      background-color: #ffffff;
+    }
+
+    &--error {
+      background-color: #ff4d05;
+      background-image: linear-gradient(
+        286.47deg,
+        rgba(255, 17, 17, 0.4) 0.18%,
+        rgba(255, 81, 10, 0) 120.39%
+      );
+    }
+  }
+}

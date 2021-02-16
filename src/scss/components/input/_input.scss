@@ -1,0 +1,61 @@
+.input {
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    margin-bottom: 10px;
+
+    font-size: $font-size-8;
+    font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-11;
+    }
+
+    &--required {
+      &::after {
+        content: '*';
+        color: $text-red;
+      }
+    }
+  }
+
+  &__field {
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    outline: none;
+
+    padding: 13px;
+
+    background-color: $input__background;
+    transition: all 0.15s ease;
+
+    &--area {
+      border-radius: 12px;
+      min-height: 175px;
+      resize: none;
+
+      @include breakpoint($breakpoint-computer) {
+        min-height: 170px;
+      }
+    }
+
+    &--error {
+      border-color: #da2e2b;
+    }
+
+    &::placeholder {
+      color: $input__placeholder;
+      font-size: $font-size-11;
+    }
+
+    &:hover {
+      border-color: $input--hover;
+    }
+
+    &:focus {
+      background-color: $input--focus;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+#callback {
+  margin-top: 75px;
+}
+
+.callback {
+  max-width: 1260px;
+  margin-top: 65px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint($breakpoint-computer) {
+    max-width: 960px;
+  }
+}
