@@ -1,0 +1,27 @@
+.feedback-item {
+  position: relative;
+
+  &__info {
+    @include flex($justify: flex-start);
+
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+    background-color: rgba($color: #000000, $alpha: 0.4);
+  }
+
+  &__author {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-weight: $weight-medium;
+  }
+
+  &__role {
+    font-size: $font-size-14;
+  }
+}

@@ -1,0 +1,13 @@
+.feedback-slider {
+  &__prev {
+    &::after {
+      content: url("../img/icons/control/slider__prev.svg");
+    }
+  }
+
+  &__next {
+    &::after {
+      content: url("../img/icons/control/slider__next.svg");
+    }
+  }
+}

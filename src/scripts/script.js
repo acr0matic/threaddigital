@@ -1,4 +1,4 @@
-const swiper = new Swiper('.project-slider', {
+const projectSlider = new Swiper('.project-slider', {
   // Optional parameters
   loop: true,
   spaceBetween: 40,
@@ -15,3 +15,14 @@ const swiper = new Swiper('.project-slider', {
     }
   }
 });
+
+const feedbackSlider = new Swiper('.feedback-slider', {
+  slidesPerView: 1,
+  grabCursor: true,
+
+  navigation: {
+    nextEl: '.feedback-slider__next',
+    prevEl: '.feedback-slider__prev',
+  },
+
+})
