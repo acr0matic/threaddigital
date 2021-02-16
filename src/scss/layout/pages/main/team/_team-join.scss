@@ -1,0 +1,40 @@
+.team-join {
+  max-width: 1250px;
+
+  border: 1px solid #b6b6b6;
+  border-radius: 24px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 95px 0;
+
+  background-image: url("../img/page/main/team/join__background.svg");
+
+  &__wrapper {
+    @include flex($justify: center);
+  }
+
+  &__title {
+    font-weight: $weight-bold;
+    font-size: $font-size-5;
+  }
+
+  &__subtitle {
+    font-size: $font-size-8;
+    font-weight: $weight-black;
+  }
+
+  &__action {
+    position: relative;
+
+    @include flex($justify: flex-start);
+
+    border: 3px solid #9127fc;
+    border-radius: 12px;
+
+    padding: 14px 24px;
+
+    box-shadow: 0 15px 105px rgba(145, 39, 252, 0.45);
+  }
+}

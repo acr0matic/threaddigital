@@ -1,0 +1,34 @@
+#team {
+  position: relative;
+}
+
+.team {
+  .row > div {
+    @include even() {
+      margin-top: 60px;
+    }
+  }
+
+  &__margin {
+    margin-bottom: 650px;
+
+    @include breakpoint($breakpoint-computer) {
+      margin-bottom: 500px;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+
+    transform: translateY(-50%);
+
+    pointer-events: none;
+  }
+
+  &__join {
+    margin-top: 80px;
+  }
+}
