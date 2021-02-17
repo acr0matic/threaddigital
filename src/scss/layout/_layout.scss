@@ -6,10 +6,10 @@
 @import "common/common";
 @import "common/header";
 @import "common/nav";
+@import "common/hero";
 @import "common/footer";
 
 // Фрагметы главной страницы
-@import "pages/main/hero.scss";
 @import "pages/main/project.scss";
 @import "pages/main/service/main";
 @import "pages/main/team/main";

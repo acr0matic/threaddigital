@@ -1,3 +1,7 @@
+#hero {
+  position: relative;
+}
+
 .hero {
   position: relative;
   margin-top: 245px;
@@ -65,5 +69,24 @@
 
   &__video {
     width: 100%;
+  }
+
+  &__button {
+    &--portfolio {
+      margin-top: 180px;
+      margin-bottom: 130px;
+
+      @include breakpoint($breakpoint-computer) {
+        margin-top: 100px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 66%;
   }
 }
