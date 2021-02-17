@@ -36,5 +36,10 @@
     padding: 14px 24px;
 
     box-shadow: 0 15px 105px rgba(145, 39, 252, 0.45);
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: #9127fc;
+    }
   }
 }

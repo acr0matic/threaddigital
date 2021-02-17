@@ -45,6 +45,10 @@
       border-color: #da2e2b;
     }
 
+    &--value {
+      background-color: $input--focus;
+    }
+
     &::placeholder {
       color: $input__placeholder;
       font-size: $font-size-11;
