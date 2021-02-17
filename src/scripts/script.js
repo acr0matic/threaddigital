@@ -24,5 +24,6 @@ const feedbackSlider = new Swiper('.feedback-slider', {
     nextEl: '.feedback-slider__next',
     prevEl: '.feedback-slider__prev',
   },
-
 })
+
+scrollTo();
