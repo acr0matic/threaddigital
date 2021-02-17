@@ -59,4 +59,16 @@ header {
       font-size: $font-size-12;
     }
   }
+
+  &__copy {
+    position: relative;
+  }
+
+  &__tooltip {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
 }

@@ -3,4 +3,7 @@
 // и подключение дополнительных вариаций
 // -----------------------------------------------------------------------------
 
-@import 'tooltip';
+$tooltip__bg: #ffffff;
+$tooltip__bg--gradient: linear-gradient(90deg, #cd1ba8 0%, #f6332e 100%);
+
+@import "tooltip";
