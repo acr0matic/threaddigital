@@ -121,7 +121,7 @@
         <!-- /.header__contact -->
 
         <div class="header__action">
-          <button class="header__button button button-outline">Оставить заявку</button>
+          <button id="callback-button" data-micromodal-trigger="modal-callback" class="header__button button button-outline">Оставить заявку</button>
         </div>
         <!-- /.header__action -->
       </div>
@@ -292,7 +292,7 @@
 
         <div class="service">
           <div class="row">
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--gradient">
                   <h3 class="service-card__title">Веб-разработка</h3>
@@ -326,7 +326,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--red">
                   <h3 class="service-card__title">SMM</h3>
@@ -359,7 +359,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--purple">
                   <h3 class="service-card__title">Дизайн</h3>
@@ -393,7 +393,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--red">
                   <h3 class="service-card__title">Брендинг</h3>
@@ -427,7 +427,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--purple">
                   <h3 class="service-card__title">Интернет-реклама</h3>
@@ -461,7 +461,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--gradient">
                   <h3 class="service-card__title">Продакшн</h3>
@@ -495,7 +495,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--gradient">
                   <h3 class="service-card__title">Мерч и упаковка</h3>
@@ -529,7 +529,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--gradient">
                   <h3 class="service-card__title">Motion-design</h3>
@@ -563,7 +563,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4">
+            <div class="col-4" data-aos="fade-up">
               <div class="service__card service-card">
                 <div class="service-card__wrapper service-card__wrapper--gradient">
                   <h3 class="service-card__title">Консалтинг</h3>
@@ -621,7 +621,7 @@
           <div class="portfolio__categories portfolio-categories"></div>
 
           <div class="portfolio__grid portfolio-grid">
-            <div class="portfolio-grid__item portfolio-grid__item--1">
+            <div class="portfolio-grid__item portfolio-grid__item--1" data-aos="zoom-in">
               <img class="portfolio-grid__image" src="img/projects/pavlovo.jpg" alt="">
 
               <div class="portfolio-grid__categories">
@@ -650,32 +650,32 @@
             </div>
             <!-- /.portfolio-grid__item -->
 
-            <div class="portfolio-grid__item portfolio-grid__item--2">
+            <div class="portfolio-grid__item portfolio-grid__item--2" data-aos="zoom-in">
               <img class="portfolio-grid__image" src="img/projects/tatarka.jpg" alt="">
             </div>
             <!-- /.portfolio-grid__item -->
 
-            <div class="portfolio-grid__item portfolio-grid__item--3">
+            <div class="portfolio-grid__item portfolio-grid__item--3" data-aos="zoom-in">
               <img class="portfolio-grid__image" src="img/projects/hookhelp.jpg" alt="">
             </div>
             <!-- /.portfolio-grid__item -->
 
-            <div class="portfolio-grid__item portfolio-grid__item--4">
+            <div class="portfolio-grid__item portfolio-grid__item--4" data-aos="zoom-in">
               <img class="portfolio-grid__image" src="img/projects/aqulla.jpg" alt="">
             </div>
             <!-- /.portfolio-grid__item -->
 
-            <div class="portfolio-grid__item portfolio-grid__item--5">
+            <div class="portfolio-grid__item portfolio-grid__item--5" data-aos="zoom-in">
               <img class="portfolio-grid__image" src="img/projects/fasgrad.jpg" alt="">
             </div>
             <!-- /.portfolio-grid__item -->
 
-            <div class="portfolio-grid__item portfolio-grid__item--6">
+            <div class="portfolio-grid__item portfolio-grid__item--6" data-aos="zoom-in">
               <img class="portfolio-grid__image" src="img/projects/veniki.jpg" alt="">
             </div>
             <!-- /.portfolio-grid__item -->
 
-            <div class="portfolio-grid__item portfolio-grid__item--7">
+            <div class="portfolio-grid__item portfolio-grid__item--7" data-aos="zoom-in">
               <img class="portfolio-grid__image" src="img/projects/travel.jpg" alt="">
             </div>
             <!-- /.portfolio-grid__item -->
@@ -1147,6 +1147,154 @@
     <!-- /.container -->
   </footer>
 
+  <div class="modal micromodal-slide" id="modal-callback">
+    <div class="modal__overlay">
+      <div class="modal__wrapper">
+        <div class="modal__container container">
+          <div class="modal__header">
+            <h2 class="modal__title mb-2">Давайте познакомимся</h2>
+            <p class="modal__description">Расскажите пару слов о себе</p>
+
+            <button class="modal__close" data-micromodal-close>
+              <svg data-micromodal-close width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect data-micromodal-close x="3.56885" y="0.554199" width="40" height="5" rx="2.5" transform="rotate(45 3.56885 0.554199)" fill="white" />
+                <rect data-micromodal-close x="0.0336914" y="28.8384" width="40" height="5" rx="2.5" transform="rotate(-45 0.0336914 28.8384)" fill="white" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="modal__content">
+            <form action="" class="form form-callback">
+              <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-4">
+                  <label class="input">
+                    <span class="input__label input__label--required">Как вас зовут?</span>
+                    <input class="input__field" type="text" name="" placeholder="Виктор Бизнесменов">
+                  </label>
+                </div>
+                <!-- /.col-4 -->
+
+                <div class="col-4">
+                  <label class="input">
+                    <span class="input__label input__label--required">Название компании</span>
+                    <input class="input__field input__field--error" type="text" name="" placeholder="Виктор и КО">
+                  </label>
+                </div>
+                <!-- /.col-4 -->
+
+                <div class="col-4">
+                  <label class="input">
+                    <span class="input__label input__label--required">Ваш E-mail</span>
+                    <input class="input__field" type="email" name="" placeholder="vityaak-47@mail.ru">
+                  </label>
+                </div>
+                <!-- /.col-4 -->
+              </div>
+              <!-- /.row -->
+
+              <div class="row mb-4" data-aos="fade-up" data-aos-delay="300">
+                <span class="input__label input__label--required mb-4">Какие услуги Вам нужны?</span>
+
+                <div class="col-4 d-flex flex-column">
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">SMM</span>
+                  </label>
+
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Сайты</span>
+                  </label>
+
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Дизайн</span>
+                  </label>
+                </div>
+                <!-- /.col-4 -->
+
+                <div class="col-4 d-flex flex-column">
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Брендирование</span>
+                  </label>
+
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Консалтинг</span>
+                  </label>
+
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Motion-дизайн</span>
+                  </label>
+                </div>
+                <!-- /.col-4 -->
+
+                <div class="col-4 d-flex flex-column">
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Продакшн</span>
+                  </label>
+
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Создание мерча</span>
+                  </label>
+
+                  <label class="checkbox checkbox--red mb-4">
+                    <input type="checkbox">
+                    <span class="checkbox__mark me-2"></span>
+                    <span class="checkbox__label">Таргетированная реклама</span>
+                  </label>
+                </div>
+                <!-- /.col-4 -->
+              </div>
+              <!-- /.row -->
+
+              <div class="row" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-8">
+                  <label class="input">
+                    <span class="input__label">Дополнительный комментарий</span>
+                    <textarea class="input__field input__field--area" type="text" name="" placeholder="Можем ли добавить панель администратора?"></textarea>
+                  </label>
+                </div>
+
+                <div class="col-5">
+                  <div class="form__action">
+                    <label class="checkbox mb-5">
+                      <input type="checkbox">
+                      <span class="checkbox__mark me-2"></span>
+                      <span class="checkbox__label">Согласен с <a href="policy.html" class="checkbox__policy">политикой обработки данных</a></span>
+                    </label>
+
+                    <button disabled class="form-callback__button form__button form__button--error button button-primary">Вы ошиблись при вводе</button>
+                  </div>
+                  <!-- /.form__action -->
+                </div>
+                <!-- /.col-5 -->
+              </div>
+              <!-- /.row -->
+            </form>
+          </div>
+          <!-- /.modal__content -->
+        </div>
+        <!-- /.modal__container -->
+      </div>
+      <!-- /.modal__wrapper -->
+    </div>
+    <!-- /.modal__overlay -->
+  </div>
+  <!-- /.modal -->
+
   <!-- Скрипты -->
   <!-- build:js -->
   <script src="scripts/libraries/swiper.js"></script>
@@ -1154,6 +1302,7 @@
   <script src="scripts/libraries/clipboard.js"></script>
   <script src="scripts/libraries/micromodal.js"></script>
   <script src="scripts/libraries/imask.js"></script>
+  <script src="scripts/libraries/aos.js"></script>
 
   <script src="scripts/script.js"></script>
   <script src="scripts/header.js"></script>

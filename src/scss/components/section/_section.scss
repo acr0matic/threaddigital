@@ -1,9 +1,8 @@
 .section {
   padding-top: 250px;
 
-
   @include breakpoint($breakpoint-computer) {
-    padding-top: 200px;;
+    padding-top: 200px;
   }
 
   &__heading {
