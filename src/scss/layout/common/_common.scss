@@ -14,3 +14,30 @@
     left: 0;
   }
 }
+
+.social-link {
+  &__icon {
+    path {
+      transition: all 0.15s ease;
+    }
+
+    &--vk {
+      &:hover path {
+        fill: #397ee5;
+        stroke: #397ee5;
+      }
+    }
+
+    &--instagram {
+      &:hover path {
+        fill: #d70d5b;
+      }
+    }
+
+    &--facebook {
+      &:hover path {
+        fill: #1877f2;
+      }
+    }
+  }
+}
