@@ -77,6 +77,34 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="solution" class="section">
+    <div class="container">
+      <h2 class="section__title mb-4">Что мы сделали</h2>
+      <div class="row">
+        <div class="col-8 col-xxl-6">
+          <p class="section__description">
+            Для решения поставленных задач мы разработали: <br>
+            - дизайн-концепцию магазина <br>
+            - креативы для запуска аккаунта в инстаграме <br>
+            - графическое и текстовое наполнение профилей <br>
+            Что конкретно? Мы проработали контент-план и наладили стабильный выход контента на страницах. Для обеспечения постоянной публикации контента, мы спродюсировали и провели фотосет фирменной одежды.
+          </p>
+        </div>
+        <!-- /.col-6 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="solution">
+        <div class="solution__picture">
+          <img src="img/page/case/solution/picture.png" alt="" class="solution__image">
+        </div>
+        <!-- /.solution__picture -->
+      </div>
+      <!-- /.solution -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once 'partials/footer.php' ?>
