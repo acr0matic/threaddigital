@@ -26,6 +26,18 @@ const feedbackSlider = new Swiper('.feedback-slider', {
   },
 })
 
+const stagesSlider = new Swiper('.stages-slider', {
+  slidesPerView: 3,
+  grabCursor: true,
+  spaceBetween: 30,
+
+  navigation: {
+    nextEl: '.stages-slider__next',
+    prevEl: '.stages-slider__prev',
+  },
+})
+
+
 scrollTo();
 
 const modalParams = {

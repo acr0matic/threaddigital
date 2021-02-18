@@ -105,6 +105,104 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="stages" class="section">
+    <div class="container">
+      <h2 class="section__title mb-4">Этапы работы</h2>
+
+      <div class="stages">
+        <div class="swiper-container stages__slider stages-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="stages__item">
+                <div class="stages__picture">
+                  <div class="stages__step">
+                    1
+                  </div>
+                  <!-- /.stages__step -->
+
+                  <img src="img/page/case/stages/1.jpg" alt="" class="stages__image">
+                </div>
+                <!-- /.stages__picture -->
+
+                <p class="stages__description">
+                  В начале работы необходимо было определиться со стилем и подготовить мудборд, на основе которого велась дальнейшая работа над проектом. фраза из диплома, заменить на чоловичье.
+                </p>
+              </div>
+              <!-- /.stages__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="stages__item">
+                <div class="stages__picture">
+                  <div class="stages__step">
+                    2
+                  </div>
+                  <!-- /.stages__step -->
+
+                  <img src="img/page/case/stages/2.jpg" alt="" class="stages__image">
+                </div>
+                <!-- /.stages__picture -->
+
+                <p class="stages__description">
+                  При выборе доминирующих цветов упор был сделан на характерные цвета модников нулевых и неон. Опираясь на стилистику работ исполнительницы от ранних до последней приняли решение использовать именно эти цвета. по-зумерски сделай, а? </p>
+              </div>
+              <!-- /.stages__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="stages__item">
+                <div class="stages__picture">
+                  <div class="stages__step">
+                    3
+                  </div>
+                  <!-- /.stages__step -->
+
+                  <img src="img/page/case/stages/3.jpg" alt="" class="stages__image">
+                </div>
+                <!-- /.stages__picture -->
+
+                <p class="stages__description">
+                  Подобрали общую стилистику профиля
+                </p>
+              </div>
+              <!-- /.stages__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="stages__item">
+                <div class="stages__picture">
+                  <div class="stages__step">
+                    3
+                  </div>
+                  <!-- /.stages__step -->
+
+                  <img src="img/page/case/stages/3.jpg" alt="" class="stages__image">
+                </div>
+                <!-- /.stages__picture -->
+
+                <p class="stages__description">
+                  Подобрали общую стилистику профиля
+                </p>
+              </div>
+              <!-- /.stages__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+        </div>
+        <!-- /.swiper-container stages-slider -->
+
+        <div class="stages__prev swiper-button-prev stages-slider__prev"></div>
+        <div class="stages__next swiper-button-next stages-slider__next"></div>
+      </div>
+      <!-- /.stages -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once 'partials/footer.php' ?>

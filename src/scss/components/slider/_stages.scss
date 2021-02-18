@@ -1,0 +1,30 @@
+.stages-slider {
+  &__prev,
+  &__next {
+    top: 55%;
+  }
+
+  &__prev {
+    left: -65px;
+
+    @include breakpoint($breakpoint-computer) {
+      left: -20px;
+    }
+
+    &::after {
+      content: url("../img/icons/control/slider__prev--gradient.svg");
+    }
+  }
+
+  &__next {
+    right: -65px;
+
+    @include breakpoint($breakpoint-computer) {
+      right: -20px;
+    }
+
+    &::after {
+      content: url("../img/icons/control/slider__next--gradient.svg");
+    }
+  }
+}
