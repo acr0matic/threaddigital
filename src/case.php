@@ -31,12 +31,12 @@
     <div class="container">
       <div class="description">
         <div class="row">
-          <div class="col-5">
+          <div class="col-5" data-aos="fade-right">
             <p style="--border-color: #D00E9A;" class="description__text">Tatarka.Store - проект российской поп-исполнительницы певицы, музыкальная авторка, участницы лейбла Little Big Family. Tatarka.Store - это официальный интернет-магазин мерча, представление которого в соцсетях является неотъемлемой частью продаж и формирования образа потребления. </p>
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-6 offset-1">
+          <div class="col-6 offset-1" data-aos="fade-left" data-aos-delay="400">
             <img class="description__image" src="img/page/case/description/logo.png" alt="">
           </div>
           <!-- /.col-7 -->
@@ -96,7 +96,7 @@
       <!-- /.row -->
 
       <div class="solution">
-        <div class="solution__picture">
+        <div class="solution__picture" data-aos="fade-down">
           <img src="img/page/case/solution/picture.png" alt="" class="solution__image">
         </div>
         <!-- /.solution__picture -->
@@ -111,7 +111,7 @@
       <h2 class="section__title mb-4">Этапы работы</h2>
 
       <div class="stages">
-        <div class="swiper-container stages__slider stages-slider">
+        <div class="swiper-container stages__slider stages-slider" data-aos="fade-left">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="stages__item">
@@ -211,7 +211,7 @@
       <div class="result">
         <div class="result__numbers result-numbers">
           <div class="row">
-            <div class="col-3">
+            <div class="col-3" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">1700</h3>
                 <p class="result-numbers__description">Подписчиков</p>
@@ -220,7 +220,7 @@
             </div>
             <!-- /.col-3 -->
 
-            <div class="col-3">
+            <div class="col-3" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">2000</h3>
                 <p class="result-numbers__description">Участников конкурса</p>
@@ -229,7 +229,7 @@
             </div>
             <!-- /.col-3 -->
 
-            <div class="col-3">
+            <div class="col-3" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">27</h3>
                 <p class="result-numbers__description">Кол-во постов</p>
@@ -238,7 +238,7 @@
             </div>
             <!-- /.col-3 -->
 
-            <div class="col-3">
+            <div class="col-3" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">2,3%</h3>
                 <p class="result-numbers__description">ER</p>
@@ -252,12 +252,12 @@
         <!-- /.result__numbers result-numbers -->
 
         <div class="result__images result-images">
-          <div class="result-images__picture">
+          <div class="result-images__picture" data-aos="fade-left">
             <img src="img/page/case/result/1.png" alt="" class="result-images__photo">
           </div>
           <!-- /.result-images__picture -->
 
-          <div class="result-images__picture">
+          <div class="result-images__picture" data-aos="fade-right">
             <img src="img/page/case/result/2.png" alt="" class="result-images__photo">
           </div>
           <!-- /.result-images__picture -->
@@ -288,7 +288,7 @@
 
       <div class="kit">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6" data-aos="fade-up">
             <h3 class="kit__title">Цвета</h3>
             <div class="kit__color kit-color">
               <div style="--color-hex: #000000;" class="kit-color__item">
@@ -320,7 +320,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-5 offset-1">
+          <div class="col-5 offset-1" data-aos="fade-up" data-aos-delay="400">
             <h3 class="kit__title">Шрифты</h3>
             <div class="kit__font kit-font">
               <div class="kit-font__item">

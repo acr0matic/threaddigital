@@ -223,6 +223,7 @@
   <script src="scripts/libraries/aos.js"></script>
 
   <script src="scripts/script.js"></script>
+  <script src="scripts/sliders.js"></script>
   <script src="scripts/header.js"></script>
   <script src="scripts/service-card.js"></script>
   <script src="scripts/forms.js"></script>
