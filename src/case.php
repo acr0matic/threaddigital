@@ -351,6 +351,128 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="authors">
+    <div class="container">
+      <div class="authors">
+        <div class="row">
+          <div class="col-2">
+            <div class="authors__item">
+              <div class="authors__title">
+                Продюссер
+              </div>
+              <!-- /.authors__title -->
+
+              <div class="authors__name">
+                Грузинский В. F.
+              </div>
+              <!-- /.authors__name -->
+            </div>
+            <!-- /.authors__item -->
+          </div>
+          <!-- /.col-2 -->
+
+          <div class="col-2">
+            <div class="authors__item">
+              <div class="authors__title">
+                Продюссер
+              </div>
+              <!-- /.authors__title -->
+
+              <div class="authors__name">
+                Грузинский В. F.
+              </div>
+              <!-- /.authors__name -->
+            </div>
+            <!-- /.authors__item -->
+          </div>
+          <!-- /.col-2 -->
+          <div class="col-2">
+            <div class="authors__item">
+              <div class="authors__title">
+                Продюссер
+              </div>
+              <!-- /.authors__title -->
+
+              <div class="authors__name">
+                Грузинский В. F.
+              </div>
+              <!-- /.authors__name -->
+            </div>
+            <!-- /.authors__item -->
+          </div>
+          <!-- /.col-2 -->
+
+          <div class="col-2">
+            <div class="authors__item">
+              <div class="authors__title">
+                Продюссер
+              </div>
+              <!-- /.authors__title -->
+
+              <div class="authors__name">
+                Грузинский В. F.
+              </div>
+              <!-- /.authors__name -->
+            </div>
+            <!-- /.authors__item -->
+          </div>
+          <!-- /.col-2 -->
+
+          <div class="col-2">
+            <div class="authors__item">
+              <div class="authors__title">
+                Продюссер
+              </div>
+              <!-- /.authors__title -->
+
+              <div class="authors__name">
+                Грузинский В. F.
+              </div>
+              <!-- /.authors__name -->
+            </div>
+            <!-- /.authors__item -->
+          </div>
+          <!-- /.col-2 -->
+
+          <div class="col-2">
+            <div class="authors__item">
+              <div class="authors__title">
+                Продюссер
+              </div>
+              <!-- /.authors__title -->
+
+              <div class="authors__name">
+                Грузинский В. F.
+              </div>
+              <!-- /.authors__name -->
+            </div>
+            <!-- /.authors__item -->
+          </div>
+          <!-- /.col-2 -->
+
+          <div class="col-2">
+            <div class="authors__item">
+              <div class="authors__title">
+                Продюссер
+              </div>
+              <!-- /.authors__title -->
+
+              <div class="authors__name">
+                Грузинский В. F.
+              </div>
+              <!-- /.authors__name -->
+            </div>
+            <!-- /.authors__item -->
+          </div>
+          <!-- /.col-2 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.authors -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once 'partials/footer.php' ?>
