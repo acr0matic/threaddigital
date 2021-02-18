@@ -203,6 +203,71 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="result" class="section">
+    <div class="container">
+      <h2 class="section__title">Результаты</h2>
+
+      <div class="result">
+        <div class="result__numbers result-numbers">
+          <div class="row">
+            <div class="col-3">
+              <div class="result-numbers__item">
+                <h3 class="result-numbers__digit">1700</h3>
+                <p class="result-numbers__description">Подписчиков</p>
+              </div>
+              <!-- /.result-numbers__item -->
+            </div>
+            <!-- /.col-3 -->
+
+            <div class="col-3">
+              <div class="result-numbers__item">
+                <h3 class="result-numbers__digit">2000</h3>
+                <p class="result-numbers__description">Участников конкурса</p>
+              </div>
+              <!-- /.result-numbers__item -->
+            </div>
+            <!-- /.col-3 -->
+
+            <div class="col-3">
+              <div class="result-numbers__item">
+                <h3 class="result-numbers__digit">27</h3>
+                <p class="result-numbers__description">Кол-во постов</p>
+              </div>
+              <!-- /.result-numbers__item -->
+            </div>
+            <!-- /.col-3 -->
+
+            <div class="col-3">
+              <div class="result-numbers__item">
+                <h3 class="result-numbers__digit">2,3%</h3>
+                <p class="result-numbers__description">ER</p>
+              </div>
+              <!-- /.result-numbers__item -->
+            </div>
+            <!-- /.col-3 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.result__numbers result-numbers -->
+
+        <div class="result__images result-images">
+          <div class="result-images__picture">
+            <img src="img/page/case/result/1.png" alt="" class="result-images__photo">
+          </div>
+          <!-- /.result-images__picture -->
+
+          <div class="result-images__picture">
+            <img src="img/page/case/result/2.png" alt="" class="result-images__photo">
+          </div>
+          <!-- /.result-images__picture -->
+        </div>
+        <!-- /.result__images result-images -->
+      </div>
+      <!-- /.result -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once 'partials/footer.php' ?>

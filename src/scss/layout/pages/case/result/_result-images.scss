@@ -1,0 +1,11 @@
+.result-images {
+  &__photo {
+    width: 100%;
+  }
+
+  &__picture {
+    &:not(:last-child) {
+      margin-bottom: 80px;
+    }
+  }
+}

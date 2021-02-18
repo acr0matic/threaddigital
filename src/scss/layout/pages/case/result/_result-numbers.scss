@@ -1,0 +1,28 @@
+.result-numbers {
+  margin-bottom: 180px;
+
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  &__item {
+
+  }
+
+  &__digit {
+    margin-bottom: 20px;
+    font-size: $font-size-4;
+
+    @include breakpoint($breakpoint-computer) {
+      margin-bottom: 10px;
+      font-size: $font-size-5;
+    }
+  }
+
+  &__description {
+    font-size: $font-size-6;
+    font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-8;
+    }
+  }
+}
