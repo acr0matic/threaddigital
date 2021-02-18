@@ -1,0 +1,10 @@
+.kit {
+  &__title {
+    margin-bottom: 70px;
+    font-size: $font-size-5;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-6;
+    }
+  }
+}

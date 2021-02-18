@@ -1,0 +1,25 @@
+.kit-color {
+  display: flex;
+
+  &__item {
+    @include flex($justify: center);
+    width: 20%;
+    height: 250px;
+
+    border-radius: 32px;
+
+    background-color: var(--color-hex);
+
+    @include breakpoint($breakpoint-computer) {
+      height: 200px;
+    }
+
+    &:not(:nth-child(5n)) {
+      margin-right: 40px;
+
+      @include breakpoint($breakpoint-computer) {
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -268,6 +268,89 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="kit" class="section">
+    <div class="container">
+      <h2 class="section__title mb-4">Цвета и шрифты</h2>
+      <div class="row">
+        <div class="col-8 col-xxl-6">
+          <p class="section__description">
+            Для решения поставленных задач мы разработали: <br>
+            - дизайн-концепцию магазина <br>
+            - креативы для запуска аккаунта в инстаграме <br>
+            - графическое и текстовое наполнение профилей <br>
+            Что конкретно? Мы проработали контент-план и наладили стабильный выход контента на страницах. Для обеспечения постоянной публикации контента, мы спродюсировали и провели фотосет фирменной одежды.
+          </p>
+        </div>
+        <!-- /.col-6 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="kit">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="kit__title">Цвета</h3>
+            <div class="kit__color kit-color">
+              <div style="--color-hex: #000000;" class="kit-color__item">
+                <span class="kit-color__value">#000000</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #FF8CEF;" class="kit-color__item">
+                <span class="kit-color__value">#FF8CEF</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #2C2D66;" class="kit-color__item">
+                <span class="kit-color__value">#2C2D66</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #2CB64D;" class="kit-color__item">
+                <span class="kit-color__value">#2CB64D</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #A73E3E;" class="kit-color__item">
+                <span class="kit-color__value">#A73E3E</span>
+              </div>
+              <!-- /.kit-color__item -->
+            </div>
+            <!-- /.kit-color -->
+          </div>
+          <!-- /.col-6 -->
+
+          <div class="col-5 offset-1">
+            <h3 class="kit__title">Шрифты</h3>
+            <div class="kit__font kit-font">
+              <div class="kit-font__item">
+                <div class="kit-font__title">Заголовки</div>
+                <div class="kit-font__picture">
+                  <img src="img/page/case/kit/font/Necks.svg" alt="" class="kit-font__image">
+                </div>
+                <!-- /.kit-font__picture -->
+              </div>
+              <!-- /.kit-font__item -->
+
+              <div class="kit-font__item">
+                <div class="kit-font__title">Заголовки</div>
+                <div class="kit-font__picture">
+                  <img src="img/page/case/kit/font/Montserrat.svg" alt="" class="kit-font__image">
+                </div>
+                <!-- /.kit-font__picture -->
+              </div>
+              <!-- /.kit-font__item -->
+            </div>
+            <!-- /.kit__font kit-font -->
+          </div>
+          <!-- /.col-5 offset-1 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.kit -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once 'partials/footer.php' ?>
