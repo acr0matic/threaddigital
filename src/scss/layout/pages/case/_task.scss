@@ -1,0 +1,22 @@
+.task {
+  &__video {
+    height: 725px;
+
+    @include breakpoint($breakpoint-computer) {
+      height: 535px;
+    }
+  }
+
+  &__picture {
+    max-height: 670px;
+    overflow: hidden;
+
+    @include breakpoint($breakpoint-computer) {
+      height: 535px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+}

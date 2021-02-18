@@ -24,7 +24,7 @@
     </div>
     <!-- /.container -->
 
-    <img class="hero__image" src="img/page/portfolio/hero/background.png" alt="">
+    <img class="hero__image" src="img/page/case/hero/background.png" alt="">
   </section>
 
   <section id="description" class="section">
@@ -37,13 +37,43 @@
           <!-- /.col-5 -->
 
           <div class="col-6 offset-1">
-            <img class="description__image" src="img/page/portfolio/description/logo.png" alt="">
+            <img class="description__image" src="img/page/case/description/logo.png" alt="">
           </div>
           <!-- /.col-7 -->
         </div>
         <!-- /.row -->
       </div>
       <!-- /.description -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="task" class="section">
+    <div class="container">
+      <h2 class="section__title mb-4">Задача</h2>
+      <div class="row">
+        <div class="col-8 col-xxl-6">
+          <p class="section__description">
+            Лейбл обратился к нам с четко поставленной задачей - запустить интернет-магазин фирменной одежды в инстаграме и главное - сделать это стильно! Нам было необходимо уловить стилистику исполнителя и перенести ее в визуал аккаунта, связав его с образом самой Татарки. Основным предметом поиска стала аутентичность
+            и максимальная близость к аудитории.
+          </p>
+        </div>
+        <!-- /.col-6 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="task">
+        <div class="task__video mb-5">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Dgs2SYBPKMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- /.task__video -->
+
+        <div class="task__picture">
+          <img src="img/page/case/task/image.jpg" alt="" class="task__image">
+        </div>
+        <!-- /.task__picture -->
+      </div>
+      <!-- /.task -->
     </div>
     <!-- /.container -->
   </section>
