@@ -13,8 +13,9 @@ forms.forEach(form => {
 
   phone = form.querySelector('input[type=tel]');
 
-  IMask(phone, {
-    mask: '+{7} (000) 000-00-00',
-    prepare: (appended, masked) => (appended === '8' && masked.value === '') ? '' : appended
-  });
+  if (phone)
+    IMask(phone, {
+      mask: '+{7} (000) 000-00-00',
+      prepare: (appended, masked) => (appended === '8' && masked.value === '') ? '' : appended
+    });
 });
