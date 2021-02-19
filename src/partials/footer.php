@@ -65,7 +65,7 @@
     <!-- /.container -->
   </footer>
 
-  <div class="modal micromodal-slide" id="modal-callback">
+  <div class="modal modal-callback micromodal-slide" id="modal-callback">
     <div class="modal__overlay">
       <div class="modal__wrapper">
         <div class="modal__container container">
