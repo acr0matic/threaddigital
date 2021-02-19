@@ -68,8 +68,8 @@
         </div>
         <!-- /.task__video -->
 
-        <div class="task__picture">
-          <img src="img/page/case/task/image.jpg" alt="" class="task__image">
+        <div class="task__picture jarallax">
+          <img src="img/page/case/task/image.jpg" alt="" class="task__image jarallax-img">
         </div>
         <!-- /.task__picture -->
       </div>

@@ -21,3 +21,7 @@ callbackButton.addEventListener('click', () => {
     setTimeout(() => item.classList.add('aos-animate'), 100);
   });
 });
+
+jarallax(document.querySelectorAll('.jarallax'), {
+  speed: 0.2
+});

@@ -1,5 +1,7 @@
 const teamJoin = document.querySelector('.team-join');
-const teamJoinCopy = teamJoin.querySelector('.team-join__copy');
-const teamJoinLink = teamJoin.querySelector('.team-join__link');
+if (teamJoin) {
+  const teamJoinCopy = teamJoin.querySelector('.team-join__copy');
+  const teamJoinLink = teamJoin.querySelector('.team-join__link');
 
-Copy(teamJoin, teamJoinCopy, teamJoinLink);
+  Copy(teamJoin, teamJoinCopy, teamJoinLink);
+}
