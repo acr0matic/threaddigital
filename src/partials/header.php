@@ -106,7 +106,7 @@
         <!-- /.header__nav -->
 
         <div class="header__contact">
-          <div class="header__link header__copy  mb-2">
+          <div class="header__link header__copy mb-2">
             <a href="tel:+78005553535" class="header__link">8 (800) 555-35-35</a>
             <div class="header__tooltip tooltip">Скопировано!</div>
           </div>
