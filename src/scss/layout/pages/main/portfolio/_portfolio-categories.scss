@@ -1,4 +1,25 @@
 .portfolio-categories {
+  display: flex;
+  align-items: center;
+
   margin-top: 75px;
-  margin-bottom: 65px;
+  margin-bottom: 35px;
+
+  padding-bottom: 25px;
+
+  overflow-x: auto;
+
+  &__item {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+
+    padding: 10px 32px;
+
+    white-space: nowrap;
+
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
 }

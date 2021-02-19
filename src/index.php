@@ -475,73 +475,119 @@
 
 
       <div class="portfolio">
-        <div class="portfolio__categories portfolio-categories"></div>
-
-        <div class="portfolio__grid portfolio-grid">
-          <div class="portfolio-grid__item portfolio-grid__item--1" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/pavlovo.jpg" alt="">
-
-            <div class="portfolio-grid__categories">
-              <div class="portfolio-grid__tag portfolio-grid__tag--purple">
-                Дизайн
-              </div>
-              <!-- /.portfolio-grid__tag -->
-
-              <div class="portfolio-grid__tag portfolio-grid__tag--red">
-                Мерч и упаковка
-              </div>
-              <!-- /.portfolio-grid__tag -->
-
-              <div class="portfolio-grid__tag portfolio-grid__tag--pink">
-                Веб-разработка
-              </div>
-              <!-- /.portfolio-grid__tag -->
-
-
-              <div class="portfolio-grid__tag portfolio-grid__tag--red">
-                Брендинг
-              </div>
-              <!-- /.portfolio-grid__tag -->
-            </div>
-            <!-- /.portfolio-grid__categories -->
+        <div class="portfolio__categories portfolio-categories">
+          <div class="portfolio-categories__item portfolio__color--pink"">
+            Веб-разработка
           </div>
-          <!-- /.portfolio-grid__item -->
+          <!-- /.portfolio-categories__item -->
 
-          <div class="portfolio-grid__item portfolio-grid__item--2" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/tatarka.jpg" alt="">
+          <div class=" portfolio-categories__item portfolio__color--red"">
+            SMM
           </div>
-          <!-- /.portfolio-grid__item -->
+          <!-- /.portfolio-categories__item -->
 
-          <div class="portfolio-grid__item portfolio-grid__item--3" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/hookhelp.jpg" alt="">
+          <div class="portfolio-categories__item portfolio__color--purple"">
+            Дизайн
           </div>
-          <!-- /.portfolio-grid__item -->
+          <!-- /.portfolio-categories__item -->
 
-          <div class="portfolio-grid__item portfolio-grid__item--4" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/aqulla.jpg" alt="">
+          <div class=" portfolio-categories__item portfolio__color--red"">
+            Брендинг
           </div>
-          <!-- /.portfolio-grid__item -->
+          <!-- /.portfolio-categories__item -->
 
-          <div class="portfolio-grid__item portfolio-grid__item--5" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/fasgrad.jpg" alt="">
+          <div class=" portfolio-categories__item portfolio__color--purple"">
+            Интернет-реклама
           </div>
-          <!-- /.portfolio-grid__item -->
+          <!-- /.portfolio-categories__item -->
 
-          <div class="portfolio-grid__item portfolio-grid__item--6" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/veniki.jpg" alt="">
+          <div class=" portfolio-categories__item portfolio__color--pink"">
+            Продакшн
           </div>
-          <!-- /.portfolio-grid__item -->
+          <!-- /.portfolio-categories__item -->
 
-          <div class="portfolio-grid__item portfolio-grid__item--7" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/travel.jpg" alt="">
+          <div class=" portfolio-categories__item portfolio__color--red"">
+            Мерч и упаковка
           </div>
-          <!-- /.portfolio-grid__item -->
+          <!-- /.portfolio-categories__item -->
+
+          <div class=" portfolio-categories__item portfolio__color--orange"">
+            Motion-design
+          </div>
+          <!-- /.portfolio-categories__item -->
+
+          <div class=" portfolio-categories__item portfolio__color--purple"">
+            Консалтинг
+          </div>
+          <!-- /.portfolio-categories__item -->
         </div>
-        <!-- /.portfolio__grid -->
+        <!-- /.portfolio__categories -->
+
+        <div class=" portfolio__grid portfolio-grid">
+            <div class="portfolio-grid__item portfolio-grid__item--1" data-aos="zoom-in">
+              <img class="portfolio-grid__image" src="img/projects/pavlovo.jpg" alt="">
+
+              <div class="portfolio-grid__categories">
+                <div class="portfolio-grid__tag portfolio__color--purple">
+                  Дизайн
+                </div>
+                <!-- /.portfolio-grid__tag -->
+
+                <div class="portfolio-grid__tag portfolio__color--red">
+                  Мерч и упаковка
+                </div>
+                <!-- /.portfolio-grid__tag -->
+
+                <div class="portfolio-grid__tag portfolio__color--pink">
+                  Веб-разработка
+                </div>
+                <!-- /.portfolio-grid__tag -->
+
+
+                <div class="portfolio-grid__tag portfolio__color--red">
+                  Брендинг
+                </div>
+                <!-- /.portfolio-grid__tag -->
+              </div>
+              <!-- /.portfolio-grid__categories -->
+            </div>
+            <!-- /.portfolio-grid__item -->
+
+            <div class="portfolio-grid__item portfolio-grid__item--2" data-aos="zoom-in">
+              <img class="portfolio-grid__image" src="img/projects/tatarka.jpg" alt="">
+            </div>
+            <!-- /.portfolio-grid__item -->
+
+            <div class="portfolio-grid__item portfolio-grid__item--3" data-aos="zoom-in">
+              <img class="portfolio-grid__image" src="img/projects/hookhelp.jpg" alt="">
+            </div>
+            <!-- /.portfolio-grid__item -->
+
+            <div class="portfolio-grid__item portfolio-grid__item--4" data-aos="zoom-in">
+              <img class="portfolio-grid__image" src="img/projects/aqulla.jpg" alt="">
+            </div>
+            <!-- /.portfolio-grid__item -->
+
+            <div class="portfolio-grid__item portfolio-grid__item--5" data-aos="zoom-in">
+              <img class="portfolio-grid__image" src="img/projects/fasgrad.jpg" alt="">
+            </div>
+            <!-- /.portfolio-grid__item -->
+
+            <div class="portfolio-grid__item portfolio-grid__item--6" data-aos="zoom-in">
+              <img class="portfolio-grid__image" src="img/projects/veniki.jpg" alt="">
+            </div>
+            <!-- /.portfolio-grid__item -->
+
+            <div class="portfolio-grid__item portfolio-grid__item--7" data-aos="zoom-in">
+              <img class="portfolio-grid__image" src="img/projects/travel.jpg" alt="">
+            </div>
+            <!-- /.portfolio-grid__item -->
+          </div>
+          <!-- /.portfolio__grid -->
+        </div>
+        <!-- /.portfolio -->
       </div>
-      <!-- /.portfolio -->
-    </div>
-    <!-- /.container -->
+      <!-- /.container -->
   </section>
 
   <section id="feedback" class="section">

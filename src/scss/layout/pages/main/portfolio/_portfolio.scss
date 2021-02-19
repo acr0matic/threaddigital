@@ -1,0 +1,19 @@
+.portfolio {
+  &__color {
+    &--red {
+      border-color: #9127fc;
+    }
+
+    &--purple {
+      border-color: #da2e2b;
+    }
+
+    &--pink {
+      border-color: #cc1aaa;
+    }
+
+    &--orange {
+      border-color: #ff4d05;
+    }
+  }
+}
