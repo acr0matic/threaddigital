@@ -3,9 +3,31 @@
 }
 
 .kit {
+  .row {
+    &:not(:last-child) {
+      margin-bottom: 200px;
+
+      @include breakpoint($breakpoint-computer) {
+        margin-bottom: 140px;
+      }
+    }
+  }
+
+  &__heading {
+    margin-bottom: 15px;
+
+    font-size: $font-size-2;
+    font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-3;
+    }
+  }
+
   &__title {
     margin-bottom: 70px;
     font-size: $font-size-5;
+    font-weight: $weight-medium;
 
     @include breakpoint($breakpoint-computer) {
       font-size: $font-size-6;

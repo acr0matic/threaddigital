@@ -14,7 +14,7 @@
               Дизайн и ведение аккаунта
             </p>
 
-            <button class="hero__button hero__button--portfolio button button-secondary" style="background-color: #D00E9A; color: #ffffff">Вперед!</button>
+            <button href="#description" class="hero__button hero__button--portfolio button button-secondary" style="background-color: #D00E9A; color: #ffffff">Вперед!</button>
           </div>
           <!-- /.col-6 -->
         </div>
@@ -288,6 +288,70 @@
 
       <div class="kit">
         <div class="row">
+          <h3 class="kit__heading">Логотип</h3>
+
+          <div class="col-6" data-aos="fade-up">
+            <h3 class="kit__title">Цвета</h3>
+            <div class="kit__color kit-color">
+              <div style="--color-hex: #000000;" class="kit-color__item">
+                <span class="kit-color__value">#000000</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #FF8CEF;" class="kit-color__item">
+                <span class="kit-color__value">#FF8CEF</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #2C2D66;" class="kit-color__item">
+                <span class="kit-color__value">#2C2D66</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #2CB64D;" class="kit-color__item">
+                <span class="kit-color__value">#2CB64D</span>
+              </div>
+              <!-- /.kit-color__item -->
+
+              <div style="--color-hex: #A73E3E;" class="kit-color__item">
+                <span class="kit-color__value">#A73E3E</span>
+              </div>
+              <!-- /.kit-color__item -->
+            </div>
+            <!-- /.kit-color -->
+          </div>
+          <!-- /.col-6 -->
+
+          <div class="col-5 offset-1" data-aos="fade-up" data-aos-delay="400">
+            <h3 class="kit__title">Шрифты</h3>
+            <div class="kit__font kit-font">
+              <div class="kit-font__item">
+                <div class="kit-font__title">Заголовки</div>
+                <div class="kit-font__picture">
+                  <img src="img/page/case/kit/font/Necks.svg" alt="" class="kit-font__image">
+                </div>
+                <!-- /.kit-font__picture -->
+              </div>
+              <!-- /.kit-font__item -->
+
+              <div class="kit-font__item">
+                <div class="kit-font__title">Заголовки</div>
+                <div class="kit-font__picture">
+                  <img src="img/page/case/kit/font/Montserrat.svg" alt="" class="kit-font__image">
+                </div>
+                <!-- /.kit-font__picture -->
+              </div>
+              <!-- /.kit-font__item -->
+            </div>
+            <!-- /.kit__font kit-font -->
+          </div>
+          <!-- /.col-5 offset-1 -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+          <h3 class="kit__heading">Сайт</h3>
+
           <div class="col-6" data-aos="fade-up">
             <h3 class="kit__title">Цвета</h3>
             <div class="kit__color kit-color">
