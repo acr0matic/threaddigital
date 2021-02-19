@@ -4,6 +4,10 @@
   &__info {
     @include flex($justify: flex-start);
 
+    position: absolute;
+    top: 0;
+    left: 0;
+
     width: 100%;
     padding-top: 10px;
     padding-left: 20px;
@@ -23,5 +27,13 @@
 
   &__role {
     font-size: $font-size-14;
+  }
+
+  &__content {
+
+  }
+
+  &__video {
+    width: 105%;
   }
 }

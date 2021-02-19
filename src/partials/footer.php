@@ -226,6 +226,7 @@
   <script src="scripts/sliders.js"></script>
   <script src="scripts/header.js"></script>
   <script src="scripts/service-card.js"></script>
+  <script src="scripts/feedback.js"></script>
   <script src="scripts/forms.js"></script>
   <!-- endbuild -->
 </body>

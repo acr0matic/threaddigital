@@ -2,6 +2,10 @@
   position: relative;
 
   margin-bottom: 485px;
+
+  @include breakpoint($breakpoint-computer) {
+    margin-bottom: 200px;
+  }
 }
 
 .feedback {
@@ -9,6 +13,10 @@
     position: absolute;
     top: 0;
     right: 0;
+
+    @include breakpoint($breakpoint-computer) {
+      display: none;
+    }
   }
 
   &__phone {
