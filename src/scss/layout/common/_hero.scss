@@ -13,6 +13,11 @@
     left: -200px;
 
     pointer-events: none;
+
+    @include breakpoint($breakpoint-computer) {
+      top: -70px;
+      left: -370px;
+    }
   }
 
   &__content {

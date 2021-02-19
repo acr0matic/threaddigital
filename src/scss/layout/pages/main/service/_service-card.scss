@@ -152,7 +152,7 @@
       .service-card__description {
         margin-top: 95%;
 
-        @include breakpoint($breakpoint-computer) {
+        @include breakpoint($breakpoint-laptop-large) {
           margin-top: 110%;
         }
       }
