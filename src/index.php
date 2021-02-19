@@ -20,7 +20,7 @@
                 Выполним одну конкретную задачу или сразу несколько.
               </p>
 
-              <button class="hero__button button button-cta">Объединить усилия</button>
+              <button href="#callback" class="hero__button button button-cta">Объединить усилия</button>
 
               <img src="img/page/main/hero/background.png" alt="" class="hero__background">
             </div>
@@ -872,7 +872,7 @@
             <div class="col-4">
               <label class="input">
                 <span class="input__label input__label--required">Ваше имя</span>
-                <input class="input__field" type="text" name="" placeholder="Андрей Евгеньевич">
+                <input data-required class="input__field" type="text" name="" placeholder="Андрей Евгеньевич">
               </label>
             </div>
             <!-- /.col-4 -->
@@ -880,7 +880,7 @@
             <div class="col-4">
               <label class="input">
                 <span class="input__label input__label--required">Ваше E-mail</span>
-                <input class="input__field input__field--error" type="email" name="" placeholder="bikov-ag@mail.ru">
+                <input data-required class="input__field" type="email" name="" placeholder="bikov-ag@mail.ru">
               </label>
             </div>
             <!-- /.col-4 -->
@@ -888,7 +888,7 @@
             <div class="col-4">
               <label class="input">
                 <span class="input__label input__label--required">Телефон</span>
-                <input class="input__field" type="tel" name="" placeholder="8-(900)-222-22-22">
+                <input data-required class="input__field" type="tel" name="" placeholder="8-(900)-222-22-22">
               </label>
             </div>
             <!-- /.col-4 -->
@@ -917,7 +917,7 @@
                   <span class="checkbox__label">Перезвонить</span>
                 </label>
 
-                <button disabled class="form-callback__button form__button form__button--error button button-primary">Вы ошиблись при вводе</button>
+                <button disabled class="form-callback__button form__button button button-primary">Отправить</button>
               </div>
               <!-- /.form__action -->
             </div>

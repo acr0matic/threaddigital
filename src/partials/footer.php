@@ -87,7 +87,7 @@
                 <div class="col-4">
                   <label class="input">
                     <span class="input__label input__label--required">Как вас зовут?</span>
-                    <input class="input__field" type="text" name="" placeholder="Виктор Бизнесменов">
+                    <input data-required class="input__field" type="text" name="" placeholder="Виктор Бизнесменов">
                   </label>
                 </div>
                 <!-- /.col-4 -->
@@ -95,7 +95,7 @@
                 <div class="col-4">
                   <label class="input">
                     <span class="input__label input__label--required">Название компании</span>
-                    <input class="input__field input__field--error" type="text" name="" placeholder="Виктор и КО">
+                    <input data-required class="input__field" type="text" name="" placeholder="Виктор и КО">
                   </label>
                 </div>
                 <!-- /.col-4 -->
@@ -103,7 +103,7 @@
                 <div class="col-4">
                   <label class="input">
                     <span class="input__label input__label--required">Ваш E-mail</span>
-                    <input class="input__field" type="email" name="" placeholder="vityaak-47@mail.ru">
+                    <input data-required class="input__field" type="email" name="" placeholder="vityaak-47@mail.ru">
                   </label>
                 </div>
                 <!-- /.col-4 -->
@@ -114,19 +114,19 @@
                 <span class="input__label input__label--required mb-4">Какие услуги Вам нужны?</span>
 
                 <div class="col-4 d-flex flex-column">
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">SMM</span>
                   </label>
 
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Сайты</span>
                   </label>
 
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Дизайн</span>
@@ -135,19 +135,19 @@
                 <!-- /.col-4 -->
 
                 <div class="col-4 d-flex flex-column">
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Брендирование</span>
                   </label>
 
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Консалтинг</span>
                   </label>
 
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Motion-дизайн</span>
@@ -156,19 +156,19 @@
                 <!-- /.col-4 -->
 
                 <div class="col-4 d-flex flex-column">
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Продакшн</span>
                   </label>
 
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Создание мерча</span>
                   </label>
 
-                  <label class="checkbox checkbox--red mb-4">
+                  <label class="checkbox mb-4">
                     <input type="checkbox">
                     <span class="checkbox__mark me-2"></span>
                     <span class="checkbox__label">Таргетированная реклама</span>
@@ -194,7 +194,7 @@
                       <span class="checkbox__label">Согласен с <a href="policy.html" class="checkbox__policy">политикой обработки данных</a></span>
                     </label>
 
-                    <button disabled class="form-callback__button form__button form__button--error button button-primary">Вы ошиблись при вводе</button>
+                    <button class="form-callback__button form__button form__button--error button button-primary">Вы ошиблись при вводе</button>
                   </div>
                   <!-- /.form__action -->
                 </div>
