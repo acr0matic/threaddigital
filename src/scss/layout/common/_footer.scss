@@ -50,4 +50,13 @@ footer {
       font-size: $font-size-12;
     }
   }
+
+  &__copy {
+    position: relative;
+  }
+
+  &__tooltip {
+    position: absolute;
+    top: -70px;
+  }
 }

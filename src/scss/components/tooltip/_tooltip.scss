@@ -4,7 +4,7 @@
   border-radius: 12px;
 
   width: max-content;
-  min-width: 185px;
+  min-width: 195px;
 
   padding: 15px;
 
@@ -36,13 +36,28 @@
     transform: translateX(-50%);
   }
 
-  &--gradient {
-    background-image: $tooltip__bg--gradient;
-    color: $text-white;
-  }
-
   &--visible {
     visibility: visible;
     opacity: 1;
+  }
+
+  &--top {
+    &::after {
+      top: unset;
+      bottom: -6px;
+
+      border-bottom: none;
+      border-top: 6px solid rgb(255, 255, 255);
+    }
+  }
+
+  &--gradient {
+    background-image: $tooltip__bg--gradient;
+    color: $text-white;
+
+    &::after {
+      border-top-color: #dc267c;
+      border-bottom-color: #dc267c;
+    }
   }
 }

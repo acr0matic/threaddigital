@@ -26,8 +26,17 @@
 
            <div class="footer__info">
              <span class="footer__copyright">© 2021 Нить </span>
-             <a href="tel:+78005553535" class="header__link">8 (800) 555-35-35</a>
-             <a href="mailto:info@threaddigital.ru" class="header__link">info@threaddigital.ru</a>
+             <div class="footer__contact footer__copy">
+               <a href="tel:+78005553535" class="footer__link">8 (800) 555-35-35</a>
+               <div class="footer__tooltip tooltip tooltip--top">Скопировано!</div>
+             </div>
+             <!-- /.footer__contact -->
+
+             <div class="footer__contact footer__copy">
+               <a href="mailto:info@threaddigital.ru" class="footer__link">info@threaddigital.ru</a>
+               <div class="footer__tooltip tooltip tooltip--top">Скопировано!</div>
+             </div>
+             <!-- /.footer__contact -->
 
              <div class="footer__social">
                <a class="footer__link social-link" href="">
@@ -232,6 +241,7 @@
  <script src="scripts/service-card.js"></script>
  <script src="scripts/team.js"></script>
  <script src="scripts/feedback.js"></script>
+ <script src="scripts/footer.js"></script>
  <script src="scripts/forms.js"></script>
  <!-- endbuild -->
  </body>
