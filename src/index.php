@@ -5,7 +5,7 @@
   <section id="hero">
     <div class="container">
       <div class="hero">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-6">
             <div class="hero__content">
               <h1 class="hero__title section__title">
@@ -28,7 +28,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-5 mx-auto">
+          <div class="col-5 mx-auto me-5 me-xl-0">
             <div class="hero__motion">
               <video class="hero__video" poster="video/hero_poster.jpg" autoplay muted loop playisline>
                 <source src="video/hero.mp4" type="video/mp4">

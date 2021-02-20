@@ -71,6 +71,12 @@
       line-height: 30px;
     }
 
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-12;
+      line-height: 28px;
+    }
+
     &--center {
       text-align: center;
     }

@@ -420,7 +420,7 @@
     <div class="container">
       <div class="authors">
         <div class="row">
-          <div class="col-2">
+          <div class="col-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -434,9 +434,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-2 -->
+          <!-- /.col-3 col-xl-2 -->
 
-          <div class="col-2">
+          <div class="col-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -450,8 +450,8 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-2 -->
-          <div class="col-2">
+          <!-- /.col-3 col-xl-2 -->
+          <div class="col-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -465,9 +465,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-2 -->
+          <!-- /.col-3 col-xl-2 -->
 
-          <div class="col-2">
+          <div class="col-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -481,9 +481,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-2 -->
+          <!-- /.col-3 col-xl-2 -->
 
-          <div class="col-2">
+          <div class="col-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -497,9 +497,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-2 -->
+          <!-- /.col-3 col-xl-2 -->
 
-          <div class="col-2">
+          <div class="col-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -513,9 +513,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-2 -->
+          <!-- /.col-3 col-xl-2 -->
 
-          <div class="col-2">
+          <div class="col-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -529,7 +529,7 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-2 -->
+          <!-- /.col-3 col-xl-2 -->
         </div>
         <!-- /.row -->
       </div>

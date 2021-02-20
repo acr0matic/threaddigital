@@ -16,6 +16,12 @@
       left: -50px;
       width: 200px;
     }
+
+    @include breakpoint($breakpoint-laptop) {
+      bottom: -30px;
+      left: -40px;
+      width: 150px;
+    }
   }
 
   &__wrapper {
@@ -57,6 +63,10 @@
     @include breakpoint($breakpoint-computer) {
       font-size: $font-size-8;
     }
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-9;
+    }
   }
 
   &__description {
@@ -66,6 +76,10 @@
 
     @include breakpoint($breakpoint-computer) {
       font-size: $font-size-12;
+    }
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-13;
     }
   }
 
@@ -149,11 +163,19 @@
         height: 210%;
       }
 
+      @include breakpoint($breakpoint-laptop) {
+        height: 200%;
+      }
+
       .service-card__description {
         margin-top: 95%;
 
         @include breakpoint($breakpoint-laptop-large) {
           margin-top: 110%;
+        }
+
+        @include breakpoint($breakpoint-laptop) {
+          margin-top: 115%;
         }
       }
     }

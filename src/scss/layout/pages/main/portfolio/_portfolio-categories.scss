@@ -28,6 +28,10 @@
       @include breakpoint($breakpoint-computer) {
         margin-right: 25%;
       }
+
+      @include breakpoint($breakpoint-laptop) {
+        margin-right: 10%;
+      }
     }
   }
 }
