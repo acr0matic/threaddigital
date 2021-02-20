@@ -31,14 +31,26 @@
   &__next {
     top: unset;
     bottom: 120px;
+
+    @include breakpoint($breakpoint-tablet) {
+      bottom: -100px;
+    }
   }
 
   &__prev {
     left: -70px;
+
+    @include breakpoint($breakpoint-tablet) {
+      left: 10px;
+    }
   }
 
   &__next {
     right: -70px;
+
+    @include breakpoint($breakpoint-tablet) {
+      right: 10px;
+    }
   }
 
   &__item {

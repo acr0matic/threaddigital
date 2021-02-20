@@ -2,7 +2,7 @@ const projectSlider = new Swiper('.project-slider', {
   // Optional parameters
   loop: true,
   spaceBetween: 40,
-  slidesPerView: 8,
+  slidesPerView: 6,
 
   autoplay: {
     delay: 1000,
@@ -10,6 +10,10 @@ const projectSlider = new Swiper('.project-slider', {
   },
 
   breakpoints: {
+    996: {
+      slidesPerView: 8,
+    },
+
     1740: {
       slidesPerView: 10,
     }

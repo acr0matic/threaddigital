@@ -5,8 +5,8 @@
     <div class="container">
       <div class="hero">
         <div class="row">
-          <div class="col-6">
-            <h1 class="hero__title section__title mb-4">
+          <div class="col-12 col-md-6">
+            <h1 class="hero__title section__title mb-3 mb-md-4">
               tatarka.store
             </h1>
 
@@ -211,41 +211,41 @@
       <div class="result">
         <div class="result__numbers result-numbers">
           <div class="row">
-            <div class="col-3" data-aos="fade-up">
+            <div class="col-6 col-md-3 mb-5 mb-md-0" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">1700</h3>
                 <p class="result-numbers__description">Подписчиков</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-3 -->
+            <!-- /.col-6 col-md-3 -->
 
-            <div class="col-3" data-aos="fade-up">
+            <div class="col-6 col-md-3 mb-5 mb-md-0" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">2000</h3>
                 <p class="result-numbers__description">Участников конкурса</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-3 -->
+            <!-- /.col-6 col-md-3 -->
 
-            <div class="col-3" data-aos="fade-up">
+            <div class="col-6 col-md-3" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">27</h3>
                 <p class="result-numbers__description">Кол-во постов</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-3 -->
+            <!-- /.col-6 col-md-3 -->
 
-            <div class="col-3" data-aos="fade-up">
+            <div class="col-6 col-md-3" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">2,3%</h3>
                 <p class="result-numbers__description">ER</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-3 -->
+            <!-- /.col-6 col-md-3 -->
           </div>
           <!-- /.row -->
         </div>
@@ -420,7 +420,7 @@
     <div class="container">
       <div class="authors">
         <div class="row">
-          <div class="col-3 col-xl-2">
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -434,9 +434,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-3 col-xl-2 -->
+          <!-- /.col-12 col-sm-4 col-md-3 col-xl-2 -->
 
-          <div class="col-3 col-xl-2">
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -450,8 +450,8 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-3 col-xl-2 -->
-          <div class="col-3 col-xl-2">
+          <!-- /.col-12 col-sm-4 col-md-3 col-xl-2 -->
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -465,9 +465,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-3 col-xl-2 -->
+          <!-- /.col-12 col-sm-4 col-md-3 col-xl-2 -->
 
-          <div class="col-3 col-xl-2">
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -481,9 +481,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-3 col-xl-2 -->
+          <!-- /.col-12 col-sm-4 col-md-3 col-xl-2 -->
 
-          <div class="col-3 col-xl-2">
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -497,9 +497,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-3 col-xl-2 -->
+          <!-- /.col-12 col-sm-4 col-md-3 col-xl-2 -->
 
-          <div class="col-3 col-xl-2">
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -513,9 +513,9 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-3 col-xl-2 -->
+          <!-- /.col-12 col-sm-4 col-md-3 col-xl-2 -->
 
-          <div class="col-3 col-xl-2">
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2">
             <div class="authors__item">
               <div class="authors__title">
                 Продюссер
@@ -529,7 +529,7 @@
             </div>
             <!-- /.authors__item -->
           </div>
-          <!-- /.col-3 col-xl-2 -->
+          <!-- /.col-12 col-sm-4 col-md-3 col-xl-2 -->
         </div>
         <!-- /.row -->
       </div>

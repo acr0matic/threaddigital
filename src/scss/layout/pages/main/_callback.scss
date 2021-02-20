@@ -1,10 +1,27 @@
 #callback {
   margin-top: 75px;
 
+  .section__title {
+    br {
+      display: none;
+    }
+  }
+
   @include breakpoint($breakpoint-tablet-large) {
     .section__title {
       font-size: $font-size-5;
       line-height: 50px;
+    }
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    .section__title {
+      font-size: $font-size-6;
+      line-height: 35px;
+
+      br {
+        display: unset;
+      }
     }
   }
 }

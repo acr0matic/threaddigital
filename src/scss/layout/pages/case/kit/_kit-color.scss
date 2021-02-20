@@ -28,6 +28,10 @@
       margin-bottom: 15px;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      height: 120px;
+    }
+
     &:not(:nth-child(5n)) {
       margin-right: 40px;
 

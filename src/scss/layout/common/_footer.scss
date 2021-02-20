@@ -24,11 +24,37 @@ footer {
     width: 160px;
 
     margin-bottom: 45px;
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 110px;
+      margin-bottom: 60px;
+    }
   }
 
   &__nav {
     .nav__item:not(:last-child) {
       margin-right: 65px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      .nav__list {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .nav__item {
+        width: 35%;
+        margin-bottom: 40px;
+
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+
+      .nav__link {
+        justify-content: flex-start;
+        font-size: $font-size-11;
+      }
     }
   }
 
@@ -40,6 +66,10 @@ footer {
 
     margin-top: 55px;
     padding-top: 30px;
+
+    @include breakpoint($breakpoint-tablet) {
+      flex-direction: column-reverse;
+    }
   }
 
   &__copyright {

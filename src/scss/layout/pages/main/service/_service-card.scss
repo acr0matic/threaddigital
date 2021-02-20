@@ -4,6 +4,10 @@
 
   margin-bottom: 100px;
 
+  @include breakpoint($breakpoint-tablet) {
+    margin-bottom: 70px;
+  }
+
   &__icon {
     position: absolute;
     z-index: 2;
@@ -172,7 +176,7 @@
         height: 200%;
       }
 
-      @include breakpoint($breakpoint-laptop) {
+      @include breakpoint($breakpoint-tablet-large) {
         height: 190%;
       }
 
@@ -187,8 +191,12 @@
           margin-top: 115%;
         }
 
-        @include breakpoint($breakpoint-laptop) {
+        @include breakpoint($breakpoint-tablet-large) {
           margin-top: 100%;
+        }
+
+        @include breakpoint($breakpoint-tablet) {
+          margin-top: 65%;
         }
       }
     }

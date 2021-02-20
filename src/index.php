@@ -149,7 +149,7 @@
 
       <div class="service">
         <div class="row">
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Веб-разработка</h3>
@@ -181,9 +181,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--red">
                 <h3 class="service-card__title">SMM</h3>
@@ -214,9 +214,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--purple">
                 <h3 class="service-card__title">Дизайн</h3>
@@ -248,9 +248,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--red">
                 <h3 class="service-card__title">Брендинг</h3>
@@ -282,9 +282,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--purple">
                 <h3 class="service-card__title">Интернет-реклама</h3>
@@ -316,9 +316,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Продакшн</h3>
@@ -350,9 +350,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Мерч и упаковка</h3>
@@ -384,9 +384,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Motion-design</h3>
@@ -418,9 +418,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
 
-          <div class="col-6 col-lg-4" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Консалтинг</h3>
@@ -452,7 +452,7 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-6 col-lg-4 -->
+          <!-- /.col-12 col-md-6 col-lg-4 -->
         </div>
         <!-- /.row -->
       </div>
@@ -874,7 +874,7 @@
 
         <div class="team__join team-join">
           <div class="team-join__wrapper">
-            <h2 class="team-join__title me-5">Хочешь стать частью команды?</h2>
+            <h2 class="team-join__title me-0 me-md-5">Хочешь стать частью команды?</h2>
 
             <div class="team-join__action team-join__copy">
               <svg class="team-join__icon me-3" width="63" height="55" viewBox="0 0 63 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -905,7 +905,7 @@
     <div class="container">
       <div class="section__heading section__heading--center">
         <h2 class="section__title mb-4">
-          Получите <span class="section__title section__title--important">бесплатный аудит</span>
+          Получите <br> <span class="section__title section__title--important">бесплатный аудит</span>
           <br>
           вашей бизнес-задачи
         </h2>
@@ -914,42 +914,42 @@
 
       <div class="callback">
         <form action="" class="form form-callback">
-          <div class="row mb-5">
-            <div class="col-4">
+          <div class="row mb-0 mb-md-5">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
                 <span class="input__label input__label--required">Ваше имя</span>
                 <input data-required class="input__field" type="text" name="" placeholder="Андрей Евгеньевич">
               </label>
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
 
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
                 <span class="input__label input__label--required">Телефон</span>
                 <input data-required class="input__field" type="tel" name="" placeholder="8-(900)-222-22-22">
               </label>
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
 
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
                 <span class="input__label input__label--required">Ваш E-mail</span>
                 <input data-required class="input__field" type="email" name="" placeholder="bikov-ag@mail.ru">
               </label>
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
           </div>
           <!-- /.row -->
 
           <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <label class="input">
                 <span class="input__label">Ваш вопрос</span>
                 <textarea class="input__field input__field--area" type="text" name="" placeholder="Хочу красивый лендос"></textarea>
               </label>
             </div>
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="form__action">
                 <label class="checkbox mb-4">
                   <input type="checkbox">
