@@ -1,5 +1,12 @@
 #callback {
   margin-top: 75px;
+
+  @include breakpoint($breakpoint-tablet-large) {
+    .section__title {
+      font-size: $font-size-5;
+      line-height: 50px;
+    }
+  }
 }
 
 .callback {

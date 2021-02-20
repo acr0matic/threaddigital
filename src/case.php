@@ -30,13 +30,13 @@
   <section id="description" class="section">
     <div class="container">
       <div class="description">
-        <div class="row">
-          <div class="col-5" data-aos="fade-right">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
             <p style="--border-color: #D00E9A;" class="description__text">Tatarka.Store - проект российской поп-исполнительницы певицы, музыкальная авторка, участницы лейбла Little Big Family. Tatarka.Store - это официальный интернет-магазин мерча, представление которого в соцсетях является неотъемлемой частью продаж и формирования образа потребления. </p>
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-6 offset-1" data-aos="fade-left" data-aos-delay="400">
+          <div class="col-6 offset-0 offset-lg-1" data-aos="fade-left" data-aos-delay="400">
             <img class="description__image" src="img/page/case/description/logo.png" alt="">
           </div>
           <!-- /.col-7 -->
@@ -52,7 +52,7 @@
     <div class="container">
       <h2 class="section__title mb-4">Задача</h2>
       <div class="row">
-        <div class="col-8 col-xxl-6">
+        <div class="col-12 col-lg-8 col-xxl-6">
           <p class="section__description">
             Лейбл обратился к нам с четко поставленной задачей - запустить интернет-магазин фирменной одежды в инстаграме и главное - сделать это стильно! Нам было необходимо уловить стилистику исполнителя и перенести ее в визуал аккаунта, связав его с образом самой Татарки. Основным предметом поиска стала аутентичность
             и максимальная близость к аудитории.
@@ -82,7 +82,7 @@
     <div class="container">
       <h2 class="section__title mb-4">Что мы сделали</h2>
       <div class="row">
-        <div class="col-8 col-xxl-6">
+        <div class="col-12 col-lg-8 col-xxl-6">
           <p class="section__description">
             Для решения поставленных задач мы разработали: <br>
             - дизайн-концепцию магазина <br>
@@ -273,7 +273,7 @@
     <div class="container">
       <h2 class="section__title mb-4">Цвета и шрифты</h2>
       <div class="row">
-        <div class="col-8 col-xxl-6">
+        <div class="col-12 col-lg-8 col-xxl-6">
           <p class="section__description">
             Для решения поставленных задач мы разработали: <br>
             - дизайн-концепцию магазина <br>

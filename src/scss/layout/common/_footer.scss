@@ -49,6 +49,16 @@ footer {
     @include breakpoint($breakpoint-computer) {
       font-size: $font-size-12;
     }
+
+    @include breakpoint($breakpoint-tablet-large) {
+      font-size: $font-size-13;
+    }
+  }
+
+  &__link {
+    @include breakpoint($breakpoint-tablet-large) {
+      font-size: $font-size-13;
+    }
   }
 
   &__copy {

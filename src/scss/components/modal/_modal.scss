@@ -32,12 +32,20 @@
 
 .modal__title {
   font-size: $font-size-3;
+
+  @include breakpoint($breakpoint-tablet-large) {
+    font-size: $font-size-5;
+  }
 }
 
 .modal__description {
   margin-bottom: 65px;
 
   font-size: $font-size-5;
+
+  @include breakpoint($breakpoint-tablet-large) {
+    font-size: $font-size-8;
+  }
 }
 
 .modal__close {

@@ -10,6 +10,11 @@
 
   overflow-x: auto;
 
+  @include breakpoint($breakpoint-tablet-large) {
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+  }
+
   &__item {
     border-width: 2px;
     border-style: solid;
@@ -31,6 +36,10 @@
 
       @include breakpoint($breakpoint-laptop) {
         margin-right: 10%;
+      }
+
+      @include breakpoint($breakpoint-tablet-large) {
+        margin-right: 15px;
       }
     }
   }

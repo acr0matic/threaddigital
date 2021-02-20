@@ -27,7 +27,7 @@ const feedbackSlider = new Swiper('.feedback-slider', {
 })
 
 const stagesSlider = new Swiper('.stages-slider', {
-  slidesPerView: 3,
+  slidesPerView: 2,
   grabCursor: true,
   spaceBetween: 30,
 
@@ -35,4 +35,10 @@ const stagesSlider = new Swiper('.stages-slider', {
     nextEl: '.stages-slider__next',
     prevEl: '.stages-slider__prev',
   },
+
+  breakpoints: {
+    991: {
+      slidesPerView: 3,
+    }
+  }
 });

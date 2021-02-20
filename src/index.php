@@ -6,7 +6,7 @@
     <div class="container">
       <div class="hero">
         <div class="row align-items-center">
-          <div class="col-6">
+          <div class="col-10 col-lg-6">
             <div class="hero__content">
               <h1 class="hero__title section__title">
                 Digital агентство
@@ -149,7 +149,7 @@
 
       <div class="service">
         <div class="row">
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Веб-разработка</h3>
@@ -181,9 +181,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--red">
                 <h3 class="service-card__title">SMM</h3>
@@ -214,9 +214,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--purple">
                 <h3 class="service-card__title">Дизайн</h3>
@@ -248,9 +248,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--red">
                 <h3 class="service-card__title">Брендинг</h3>
@@ -282,9 +282,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--purple">
                 <h3 class="service-card__title">Интернет-реклама</h3>
@@ -316,9 +316,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Продакшн</h3>
@@ -350,9 +350,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Мерч и упаковка</h3>
@@ -384,9 +384,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Motion-design</h3>
@@ -418,9 +418,9 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
 
-          <div class="col-4" data-aos="fade-up">
+          <div class="col-6 col-lg-4" data-aos="fade-up">
             <div class="service__card service-card">
               <div class="service-card__wrapper service-card__wrapper--gradient">
                 <h3 class="service-card__title">Консалтинг</h3>
@@ -452,7 +452,7 @@
             </div>
             <!-- /.service__card service-card -->
           </div>
-          <!-- /.col-4 -->
+          <!-- /.col-6 col-lg-4 -->
         </div>
         <!-- /.row -->
       </div>
@@ -681,7 +681,7 @@
 
       <div class="team">
         <div class="row team__margin">
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/1.jpg" alt="" class="team-card__image">
@@ -702,9 +702,9 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/2.jpg" alt="" class="team-card__image">
@@ -725,9 +725,9 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/3.jpg" alt="" class="team-card__image">
@@ -748,9 +748,9 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/4.jpg" alt="" class="team-card__image">
@@ -771,14 +771,14 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
         </div>
         <!-- /.row -->
 
         <img src="img/page/main/team/background.png" alt="" class="team__background">
 
         <div class="row">
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/5.jpg" alt="" class="team-card__image">
@@ -799,9 +799,9 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/6.jpg" alt="" class="team-card__image">
@@ -822,9 +822,9 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/7.jpg" alt="" class="team-card__image">
@@ -845,9 +845,9 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
 
-          <div class="col-3">
+          <div class="col-6 col-lg-3">
             <div class="team__card team-card">
               <div class="team-card__photo">
                 <img src="img/page/main/team/people/8.jpg" alt="" class="team-card__image">
@@ -868,7 +868,7 @@
             </div>
             <!-- /.team__card team-card -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-6 col-lg-3 -->
         </div>
         <!-- /.row -->
 

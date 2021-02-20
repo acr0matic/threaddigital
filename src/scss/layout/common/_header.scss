@@ -44,6 +44,12 @@ header {
     }
   }
 
+  &__nav {
+    @include breakpoint($breakpoint-tablet-large) {
+      display: none;
+    }
+  }
+
   &__contact {
     display: flex;
     flex-direction: column;
@@ -52,6 +58,10 @@ header {
     margin-right: 25px;
 
     text-align: right;
+
+    @include breakpoint($breakpoint-tablet-large) {
+      display: none;
+    }
   }
 
   &__link {
@@ -85,5 +95,11 @@ header {
     left: 50%;
 
     transform: translateX(-50%);
+  }
+
+  &__action {
+    @include breakpoint($breakpoint-tablet-large) {
+      display: none;
+    }
   }
 }

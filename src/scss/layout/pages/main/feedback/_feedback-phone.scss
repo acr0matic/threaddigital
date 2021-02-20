@@ -11,6 +11,11 @@
     margin-top: 75px;
   }
 
+  @include breakpoint($breakpoint-tablet-large) {
+    width: 100%;
+    height: 384px;
+  }
+
   &__container {
     width: 96%;
     height: 93%;

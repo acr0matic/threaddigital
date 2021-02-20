@@ -22,6 +22,11 @@
       left: -40px;
       width: 150px;
     }
+
+    @include breakpoint($breakpoint-tablet-large) {
+      bottom: -40px;
+      left: -20px;
+    }
   }
 
   &__wrapper {
@@ -167,6 +172,10 @@
         height: 200%;
       }
 
+      @include breakpoint($breakpoint-laptop) {
+        height: 190%;
+      }
+
       .service-card__description {
         margin-top: 95%;
 
@@ -176,6 +185,10 @@
 
         @include breakpoint($breakpoint-laptop) {
           margin-top: 115%;
+        }
+
+        @include breakpoint($breakpoint-laptop) {
+          margin-top: 100%;
         }
       }
     }

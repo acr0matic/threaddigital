@@ -6,6 +6,11 @@
   .row > div {
     @include even() {
       margin-top: 60px;
+
+      @include breakpoint($breakpoint-tablet-large) {
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
     }
   }
 
@@ -14,6 +19,10 @@
 
     @include breakpoint($breakpoint-computer) {
       margin-bottom: 500px;
+    }
+
+    @include breakpoint($breakpoint-tablet-large) {
+      margin-bottom: 0;
     }
   }
 
@@ -26,6 +35,10 @@
     transform: translateY(-50%);
 
     pointer-events: none;
+
+    @include breakpoint($breakpoint-tablet-large) {
+      display: none;
+    }
   }
 
   &__join {
