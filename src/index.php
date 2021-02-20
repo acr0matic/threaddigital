@@ -481,42 +481,42 @@
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class=" portfolio-categories__item portfolio__color--red"">
+          <div class="portfolio-categories__item portfolio__color--red">
             SMM
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class="portfolio-categories__item portfolio__color--purple"">
+          <div class="portfolio-categories__item portfolio__color--purple">
             Дизайн
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class=" portfolio-categories__item portfolio__color--red"">
+          <div class="portfolio-categories__item portfolio__color--red">
             Брендинг
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class=" portfolio-categories__item portfolio__color--purple"">
+          <div class="portfolio-categories__item portfolio__color--purple">
             Интернет-реклама
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class=" portfolio-categories__item portfolio__color--pink"">
+          <div class="portfolio-categories__item portfolio__color--pink">
             Продакшн
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class=" portfolio-categories__item portfolio__color--red"">
+          <div class="portfolio-categories__item portfolio__color--red">
             Мерч и упаковка
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class=" portfolio-categories__item portfolio__color--orange"">
+          <div class="portfolio-categories__item portfolio__color--orange">
             Motion-design
           </div>
           <!-- /.portfolio-categories__item -->
 
-          <div class=" portfolio-categories__item portfolio__color--purple"">
+          <div class="portfolio-categories__item portfolio__color--purple">
             Консалтинг
           </div>
           <!-- /.portfolio-categories__item -->
