@@ -90,8 +90,8 @@
 
                <div class="col-4">
                  <label class="input">
-                   <span class="input__label input__label--required">Название компании</span>
-                   <input data-required class="input__field" type="text" name="" placeholder="Виктор и КО">
+                   <span class="input__label input__label--required">Телефон</span>
+                   <input data-required class="input__field" type="tel" name="" placeholder="8-(900)-222-22-22">
                  </label>
                </div>
                <!-- /.col-4 -->
@@ -106,8 +106,8 @@
              </div>
              <!-- /.row -->
 
-             <div class="row mb-4" data-aos="fade-up" data-aos-delay="300">
-               <span class="input__label input__label--required mb-4">Какие услуги Вам нужны?</span>
+             <div class="row mb-4 input__group" data-aos="fade-up" data-aos-delay="300">
+               <span class="input__label mb-4">Какие услуги Вам нужны?</span>
 
                <div class="col-4 d-flex flex-column">
                  <label class="checkbox mb-4">
@@ -198,7 +198,7 @@
 
              <div class="row">
                <div class="col-5">
-                 <button class="form-callback__button form__button form__button--error button button-primary">Вы ошиблись при вводе</button>
+                 <button class="form-callback__button form__button button button-primary">Отправить</button>
                </div>
                <!-- /.col-5 -->
              </div>

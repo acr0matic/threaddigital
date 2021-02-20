@@ -5,18 +5,18 @@ forms.forEach(form => {
   const checkbox = form.querySelector('input[type=checkbox]');
   const submit = form.querySelector('button');
 
-  const fields = form.querySelectorAll('input, textarea');
+  const fields = form.querySelectorAll('.input__field, textarea');
   const requiredFields = form.querySelectorAll('[data-required]');
 
   let formData;
 
-  phone = form.querySelector('input[type=tel]');
-
-  if (phone)
+  const phone = form.querySelector('input[type=tel]');
+  if (phone) {
     IMask(phone, {
       mask: '+{7} (000) 000-00-00',
       prepare: (appended, masked) => (appended === '8' && masked.value === '') ? '' : appended
     });
+  }
 
   requiredFields.forEach(field => {
     field.addEventListener('click', () => {
