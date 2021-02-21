@@ -1,0 +1,58 @@
+.mobile-menu {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  opacity: 0;
+  visibility: hidden;
+
+  background-color: $palette-black;
+
+  transition: all 0.3s ease;
+
+  &--open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 110px;
+  }
+
+  &__nav {
+    margin-bottom: 35px;
+    width: 100%;
+  }
+
+  &__action {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  &__button {
+    width: 100%;
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 25px;
+
+    text-align: center;
+  }
+
+  &__link {
+    font-weight: $weight-medium;
+    font-size: $font-size-11;
+    color: $text-gray;
+  }
+}

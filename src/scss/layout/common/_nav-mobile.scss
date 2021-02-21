@@ -1,0 +1,16 @@
+.nav-mobile {
+  &__list {
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__link {
+    font-family: Raleway, sans-serif;
+    font-size: $font-size-6;
+    font-weight: $weight-black;
+  }
+}

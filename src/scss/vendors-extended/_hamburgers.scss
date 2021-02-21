@@ -3,13 +3,16 @@
   outline: none;
 
   &-box {
-    width: 35px;
+    width: 30px;
   }
 
   &-inner,
   &-inner::before,
   &-inner::after {
-    border-radius: 0;
+    border-radius: 15px;
+
+    height: 3px;
+    background-color: #ffffff;
   }
 
   &-inner {
@@ -19,7 +22,7 @@
     width: 100%;
 
     &::before {
-      width: 100%;
+      width: 75%;
     }
 
     &::after {
@@ -32,4 +35,10 @@
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
   background-color: #ffffff;
+}
+
+.is-active {
+  .hamburger-inner::before {
+    width: 100%;
+  }
 }

@@ -89,36 +89,36 @@
          <div class="modal__content">
            <form action="" class="form form-callback">
              <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
-               <div class="col-4">
+               <div class="col-12 col-md-4 mb-4 mb-md-0">
                  <label class="input">
                    <span class="input__label input__label--required">Как вас зовут?</span>
                    <input data-required class="input__field" type="text" name="" placeholder="Виктор Бизнесменов">
                  </label>
                </div>
-               <!-- /.col-4 -->
+               <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
 
-               <div class="col-4">
+               <div class="col-12 col-md-4 mb-4 mb-md-0">
                  <label class="input">
                    <span class="input__label input__label--required">Телефон</span>
                    <input data-required class="input__field" type="tel" name="" placeholder="8-(900)-222-22-22">
                  </label>
                </div>
-               <!-- /.col-4 -->
+               <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
 
-               <div class="col-4">
+               <div class="col-12 col-md-4 mb-4 mb-md-0">
                  <label class="input">
                    <span class="input__label input__label--required">Ваш E-mail</span>
                    <input data-required class="input__field" type="email" name="" placeholder="vityaak-47@mail.ru">
                  </label>
                </div>
-               <!-- /.col-4 -->
+               <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
              </div>
              <!-- /.row -->
 
              <div class="row mb-4 input__group" data-aos="fade-up" data-aos-delay="300">
                <span class="input__label mb-4">Какие услуги Вам нужны?</span>
 
-               <div class="col-4 d-flex flex-column">
+               <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex flex-column">
                  <label class="checkbox mb-4">
                    <input type="checkbox">
                    <span class="checkbox__mark me-2"></span>
@@ -131,15 +131,15 @@
                    <span class="checkbox__label">Сайты</span>
                  </label>
 
-                 <label class="checkbox mb-4">
+                 <label class="checkbox">
                    <input type="checkbox">
                    <span class="checkbox__mark me-2"></span>
                    <span class="checkbox__label">Дизайн</span>
                  </label>
                </div>
-               <!-- /.col-4 -->
+               <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
 
-               <div class="col-4 d-flex flex-column">
+               <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex flex-column">
                  <label class="checkbox mb-4">
                    <input type="checkbox">
                    <span class="checkbox__mark me-2"></span>
@@ -152,15 +152,15 @@
                    <span class="checkbox__label">Консалтинг</span>
                  </label>
 
-                 <label class="checkbox mb-4">
+                 <label class="checkbox">
                    <input type="checkbox">
                    <span class="checkbox__mark me-2"></span>
                    <span class="checkbox__label">Motion-дизайн</span>
                  </label>
                </div>
-               <!-- /.col-4 -->
+               <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
 
-               <div class="col-4 d-flex flex-column">
+               <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex flex-column">
                  <label class="checkbox mb-4">
                    <input type="checkbox">
                    <span class="checkbox__mark me-2"></span>
@@ -173,18 +173,18 @@
                    <span class="checkbox__label">Создание мерча</span>
                  </label>
 
-                 <label class="checkbox mb-4">
+                 <label class="checkbox">
                    <input type="checkbox">
                    <span class="checkbox__mark me-2"></span>
                    <span class="checkbox__label">Таргетированная реклама</span>
                  </label>
                </div>
-               <!-- /.col-4 -->
+               <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
              </div>
              <!-- /.row -->
 
              <div class="row" data-aos="fade-up" data-aos-delay="500">
-               <div class="col-8">
+               <div class="col-12 col-md-8">
                  <label class="input">
                    <span class="input__label">Дополнительный комментарий</span>
                    <textarea class="input__field input__field--area" type="text" name="" placeholder="Можем ли добавить панель администратора?"></textarea>
@@ -206,7 +206,7 @@
              <!-- /.row -->
 
              <div class="row">
-               <div class="col-5">
+               <div class="col-12 col-md-5">
                  <button class="form-callback__button form__button button button-primary">Отправить</button>
                </div>
                <!-- /.col-5 -->
@@ -243,6 +243,7 @@
  <script src="scripts/feedback.js"></script>
  <script src="scripts/footer.js"></script>
  <script src="scripts/forms.js"></script>
+ <script src="scripts/mobile.js"></script>
  <!-- endbuild -->
  </body>
 

@@ -11,6 +11,10 @@
   justify-content: center;
 
   background: #000000;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    z-index: 30;
+  }
 }
 
 .modal__wrapper {
@@ -20,14 +24,25 @@
 
   padding-top: 65px;
   padding-bottom: 65px;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    padding-top: 110px;
+  }
 }
 
 .modal__container {
   width: 1140px;
   height: 100%;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    width: 100%;
+  }
 }
 
 .modal__header {
+  @include breakpoint($breakpoint-mobile-large) {
+    text-align: center;
+  }
 }
 
 .modal__title {
@@ -35,6 +50,10 @@
 
   @include breakpoint($breakpoint-tablet-large) {
     font-size: $font-size-5;
+  }
+
+  @include breakpoint($breakpoint-mobile-large) {
+    font-size: $font-size-7;
   }
 }
 
@@ -45,6 +64,10 @@
 
   @include breakpoint($breakpoint-tablet-large) {
     font-size: $font-size-8;
+  }
+
+  @include breakpoint($breakpoint-mobile-large) {
+    font-size: $font-size-12;
   }
 }
 
@@ -64,6 +87,10 @@
 
   &:hover {
     opacity: 0.5;
+  }
+
+  @include breakpoint($breakpoint-mobile-large) {
+    display: none;
   }
 }
 

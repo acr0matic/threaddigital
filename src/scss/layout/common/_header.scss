@@ -102,4 +102,12 @@ header {
       display: none;
     }
   }
+
+  &__mobile {
+    display: none;
+
+    @include breakpoint($breakpoint-tablet) {
+      display: block;
+    }
+  }
 }
