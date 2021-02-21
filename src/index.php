@@ -28,7 +28,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-5 mx-auto me-5 me-xl-0">
+          <div class="col-5 mx-auto me-5 me-xl-auto">
             <div class="hero__motion">
               <video class="hero__video" poster="video/hero_poster.jpg" autoplay muted loop playisline>
                 <source src="video/hero.mp4" type="video/mp4">
