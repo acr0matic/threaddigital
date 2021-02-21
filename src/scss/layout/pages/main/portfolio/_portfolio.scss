@@ -16,4 +16,20 @@
       border-color: #ff4d05;
     }
   }
+
+  &__other {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-size: $font-size-7;
+
+    @include breakpoint($breakpoint-computer) {
+      font-size: $font-size-8;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-10;
+    }
+  }
 }

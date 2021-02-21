@@ -1,8 +1,9 @@
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 33% 20% 32%;
   gap: 30px 30px;
+
+  margin-bottom: 30px;
 
   @include breakpoint($breakpoint-computer) {
     gap: 15px 15px;
@@ -136,56 +137,5 @@
     @include breakpoint($breakpoint-tablet) {
       display: none;
     }
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  .portfolio-grid {
-    display: -ms-grid;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr 0.8fr 1.2fr;
-    gap: 30px 30px;
-  }
-
-  .portfolio__item .portfolio__item--1 {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-  }
-
-  .portfolio__item .portfolio__item--3 {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 2;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-  }
-
-  .portfolio__item .portfolio__item--2 {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 3;
-  }
-
-  .portfolio__item .portfolio__item--4 {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 3;
-  }
-
-  .portfolio__item .portfolio__item--5 {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 2;
-  }
-
-  .portfolio__item {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: -1;
   }
 }
