@@ -71,6 +71,12 @@
     }
 
     &:hover {
+      @media (hover: hover) {
+        background-color: #9127fc;
+      }
+    }
+
+    &:active {
       background-color: #9127fc;
     }
   }

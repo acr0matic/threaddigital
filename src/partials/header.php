@@ -44,10 +44,10 @@
   <meta name="robots" content="index,follow,noodp" />
 
   <!-- Покраска адресной строки в мобильных Chrome, Firefox OS и Opera -->
-  <meta name="theme-color" content="#4285f4" />
+  <meta name="theme-color" content="#09090A" />
 
   <!-- Для Windows Phone -->
-  <meta name="msapplication-navbutton-color" content="#4285f4" />
+  <meta name="msapplication-navbutton-color" content="#09090A" />
 
   <!-- Для iOS Safari -->
   <meta name="apple-mobile-web-app-capable" content="yes" />

@@ -9,7 +9,9 @@
 
   &:hover {
     &::after {
-      opacity: 0;
+      @media (hover: hover) {
+        opacity: 0;
+      }
     }
   }
 

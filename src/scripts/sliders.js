@@ -1,7 +1,7 @@
 const projectSlider = new Swiper('.project-slider', {
   // Optional parameters
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 40,
   slidesPerView: 5,
 
   autoplay: {

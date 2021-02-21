@@ -52,6 +52,7 @@
   }
 
   &__role {
+    color: #b5b5b5;
     font-size: $font-size-10;
 
     @include breakpoint($breakpoint-computer) {
@@ -66,6 +67,7 @@
   &__link {
     display: inline-flex;
     align-items: center;
+    color: #848484;
 
     font-size: $font-size-13;
 
