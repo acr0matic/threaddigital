@@ -100,7 +100,7 @@
                <div class="col-12 col-md-4 mb-4 mb-md-0">
                  <label class="input">
                    <span class="input__label input__label--required">Телефон</span>
-                   <input data-required class="input__field" type="tel" name="" placeholder="8-(900)-222-22-22">
+                   <input data-required class="input__field" type="tel" name="" placeholder="8-900-222-22-22">
                  </label>
                </div>
                <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->

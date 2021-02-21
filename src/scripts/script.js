@@ -12,7 +12,6 @@ AOS.init({ once: true, offset: 240 });
 const callbackButton = document.querySelectorAll('.header__button, .mobile-menu__button');
 const callbackModal = document.getElementById('modal-callback');
 
-
 callbackButton.forEach(button => {
   button.addEventListener('click', () => {
     const animated = callbackModal.querySelectorAll('.aos-animate');

@@ -764,7 +764,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Грузинский Владислав</div>
+              <div class="team-card__name mb-1 mb-sm-2">Грузинский Владислав</div>
               <div class="team-card__role mb-3">CEO</div>
               <a href="https://www.instagram.com/gruzinskii_vlad" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -787,7 +787,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Хмелев Роман</div>
+              <div class="team-card__name mb-1 mb-sm-2">Хмелев Роман</div>
               <div class="team-card__role mb-3">Web-дизайнер</div>
               <a href="https://www.instagram.com/khmelrom" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -810,7 +810,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Саблин Никита</div>
+              <div class="team-card__name mb-1 mb-sm-2">Саблин Никита</div>
               <div class="team-card__role mb-3">Motion-дизайнер</div>
               <a href="https://www.instagram.com/sbln.n" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -833,7 +833,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Елизавета Смирнова</div>
+              <div class="team-card__name mb-1 mb-sm-2">Елизавета Смирнова</div>
               <div class="team-card__role mb-3">Руководитель</div>
               <a href="https://www.instagram.com/elizavettasmirnova" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -861,7 +861,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Дмитриев Дмитрий</div>
+              <div class="team-card__name mb-1 mb-sm-2">Дмитриев Дмитрий</div>
               <div class="team-card__role mb-3">Технический продюссер</div>
               <a href="https://www.instagram.com/dddmka" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -884,7 +884,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Артемьева Анастасия</div>
+              <div class="team-card__name mb-1 mb-sm-2">Артемьева Анастасия</div>
               <div class="team-card__role mb-3">SMM-специалист</div>
               <a href="https://www.instagram.com/anastasiaartnn" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -907,7 +907,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Тулин Кирилл</div>
+              <div class="team-card__name mb-1 mb-sm-2">Тулин Кирилл</div>
               <div class="team-card__role mb-3">Дизайнер</div>
               <a href="https://www.instagram.com/yellowcleaner" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -930,7 +930,7 @@
               </div>
               <!-- /.team-card__photo -->
 
-              <div class="team-card__name mb-2">Косырев Кирилл</div>
+              <div class="team-card__name mb-1 mb-sm-2">Косырев Кирилл</div>
               <div class="team-card__role mb-3">Старший дизайнер</div>
               <a href="https://www.instagram.com/koufff/" class="team-card__link" target="_blank">
                 <svg class="team-card__icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1001,7 +1001,7 @@
             <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
                 <span class="input__label input__label--required">Телефон</span>
-                <input data-required class="input__field" type="tel" name="" placeholder="8-(900)-222-22-22">
+                <input data-required class="input__field" type="tel" name="" placeholder="8-900-222-22-22">
               </label>
             </div>
             <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->

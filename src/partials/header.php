@@ -145,28 +145,28 @@
         <div class="mobile-menu__nav">
           <nav class="nav-mobile">
             <ul class="nav-mobile__list">
-              <li class="nav-mobile__item"><a href="#service" class="nav-mobile__link">Услуги</a></li>
-              <li class="nav-mobile__item"><a href="#portfolio" class="nav-mobile__link">Кейсы</a></li>
-              <li class="nav-mobile__item"><a href="#feedback" class="nav-mobile__link">Отзывы</a></li>
-              <li class="nav-mobile__item"><a href="#team" class="nav-mobile__link">Команда</a></li>
-              <li class="nav-mobile__item"><a href="#callback" class="nav-mobile__link">Контакты</a></li>
+              <li data-aos="fade-up" data-aos-delay="100" class="nav-mobile__item"><a href="#service" class="nav-mobile__link">Услуги</a></li>
+              <li data-aos="fade-up" data-aos-delay="150" class="nav-mobile__item"><a href="#portfolio" class="nav-mobile__link">Кейсы</a></li>
+              <li data-aos="fade-up" data-aos-delay="200" class="nav-mobile__item"><a href="#feedback" class="nav-mobile__link">Отзывы</a></li>
+              <li data-aos="fade-up" data-aos-delay="250" class="nav-mobile__item"><a href="#team" class="nav-mobile__link">Команда</a></li>
+              <li data-aos="fade-up" data-aos-delay="300" class="nav-mobile__item"><a href="#callback" class="nav-mobile__link">Контакты</a></li>
             </ul>
           </nav>
         </div>
         <!-- /.mobile-menu__nav -->
 
-        <div class="mobile-menu__action">
-          <button data-micromodal-trigger="modal-callback" class="mobile-menu__button button button-outline">Отставить заявку</button>
+        <div data-aos="fade-up" data-aos-delay="350" class="mobile-menu__action">
+          <button data-micromodal-trigger="modal-callback" class="mobile-menu__button button button-outline">Оставить заявку</button>
         </div>
         <!-- /.mobile-menu__action -->
 
-        <div class="mobile-menu__contact">
+        <div data-aos="fade-up" data-aos-delay="400" class="mobile-menu__contact">
           <a href="tel:+78005553535" class="mobile-menu__link mb-3">8 (800) 555-35-35</a>
           <a href="mailto:info@threaddigital.ru" class="mobile-menu__link">info@threaddigital.ru</a>
         </div>
         <!-- /.mobile-menu__contact -->
 
-        <div class="mobile-menu__social">
+        <div data-aos="fade-up" data-aos-delay="450" class="mobile-menu__social">
           <a class="social-link me-3" href="">
             <svg class="social-link__icon social-link__icon--vk" width="40" height="40" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M36.5414 21.8244C36.6812 21.3488 36.5414 21 35.8807 21H33.6919C33.135 21 32.8805 21.3017 32.7407 21.6331C32.7407 21.6331 31.6279 24.4143 30.0509 26.2175C29.5419 26.7423 29.3093 26.908 29.0319 26.908C28.8931 26.908 28.6915 26.7423 28.6915 26.2666V21.8244C28.6915 21.2537 28.5308 21 28.0667 21H24.6273C24.28 21 24.0704 21.2639 24.0704 21.5155C24.0704 22.0556 24.8589 22.1804 24.9397 23.7024V27.0041C24.9397 27.7273 24.813 27.8592 24.5335 27.8592C23.7919 27.8592 21.9874 25.0679 20.9165 21.8725C20.7079 21.2516 20.4973 21.001 19.9384 21.001H17.7506C17.1248 21.001 17 21.3028 17 21.6342C17 22.2295 17.7416 25.1753 20.4544 29.0713C22.2629 31.7317 24.809 33.1739 27.1285 33.1739C28.5189 33.1739 28.6905 32.8538 28.6905 32.3014V30.2905C28.6905 29.6502 28.8233 29.5213 29.2634 29.5213C29.5868 29.5213 30.1437 29.6891 31.4422 30.9707C32.9254 32.4907 33.1709 33.1729 34.0043 33.1729H36.1921C36.8169 33.1729 37.1293 32.8527 36.9497 32.2206C36.753 31.5916 36.0444 30.6761 35.1042 29.5929C34.5932 28.9751 33.8296 28.3103 33.5971 27.9779C33.2727 27.5493 33.3665 27.3601 33.5971 26.9796C33.5981 26.9806 36.264 23.1326 36.5414 21.8244Z" fill="white" />

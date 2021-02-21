@@ -10,6 +10,10 @@
 
     margin-bottom: 32px;
 
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 15px;
+    }
+
     &:hover {
       .team-card__layer {
         opacity: 1;
@@ -49,6 +53,10 @@
     @include breakpoint($breakpoint-tablet-large) {
       font-size: $font-size-12;
     }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-14;
+    }
   }
 
   &__role {
@@ -61,6 +69,10 @@
 
     @include breakpoint($breakpoint-tablet-large) {
       font-size: $font-size-13;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-14 - 2;
     }
   }
 
