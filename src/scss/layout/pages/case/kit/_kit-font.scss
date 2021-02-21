@@ -11,6 +11,11 @@
     color: #b5b5b5;
     font-weight: $weight-black;
     text-transform: uppercase;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-bottom: 25px;
+      font-size: $font-size-14;
+    }
   }
 
   &__picture {

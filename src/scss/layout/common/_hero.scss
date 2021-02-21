@@ -10,6 +10,10 @@
     margin-top: 180px;
   }
 
+  @include breakpoint($breakpoint-mobile-large) {
+    margin-top: 120px;
+  }
+
   &__background {
     position: absolute;
     z-index: -1;
@@ -26,6 +30,10 @@
     @include breakpoint($breakpoint-computer) {
       top: -70px;
       left: -490px;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
     }
   }
 
@@ -55,6 +63,11 @@
       line-height: 48px;
     }
 
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-6;
+      line-height: 32px;
+    }
+
     &--important {
       color: $text-red;
     }
@@ -70,6 +83,10 @@
         display: none;
       }
     }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-bottom: 65px;
+    }
   }
 
   &__social {
@@ -81,6 +98,10 @@
     flex-direction: column;
 
     transform: translateY(-50%);
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 
   &__motion {
@@ -97,6 +118,10 @@
   }
 
   &__button {
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
+
     &--portfolio {
       margin-top: 180px;
       margin-bottom: 130px;
@@ -104,6 +129,10 @@
       @include breakpoint($breakpoint-computer) {
         margin-top: 100px;
         margin-bottom: 50px;
+      }
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin-bottom: 15px;
       }
     }
   }
@@ -120,6 +149,11 @@
     @include breakpoint($breakpoint-tablet) {
       right: -90px;
       width: 580px;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      bottom: 50%;
+      transform: translateY(50%);
     }
   }
 }

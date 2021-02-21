@@ -20,6 +20,10 @@
     height: 285px;
   }
 
+  @include breakpoint(max-width 560px) {
+    height: 53vw;
+  }
+
   &__container {
     width: 96%;
     height: 93%;
@@ -36,6 +40,13 @@
 
     @include breakpoint($breakpoint-tablet) {
       margin-top: 5px;
+    }
+
+    @include breakpoint(max-width 560px) {
+      border-radius: 24px;
+      height: 91%;
+
+      margin-top: 2px;
     }
   }
 

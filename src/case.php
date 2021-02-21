@@ -211,41 +211,41 @@
       <div class="result">
         <div class="result__numbers result-numbers">
           <div class="row">
-            <div class="col-6 col-md-3 mb-5 mb-md-0" data-aos="fade-up">
+            <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">1700</h3>
                 <p class="result-numbers__description">Подписчиков</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-6 col-md-3 -->
+            <!-- /.col-12 col-sm-6 col-md-3 -->
 
-            <div class="col-6 col-md-3 mb-5 mb-md-0" data-aos="fade-up">
+            <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">2000</h3>
                 <p class="result-numbers__description">Участников конкурса</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-6 col-md-3 -->
+            <!-- /.col-12 col-sm-6 col-md-3 -->
 
-            <div class="col-6 col-md-3" data-aos="fade-up">
+            <div class="col-12 col-sm-6 col-md-3 mb-5 mb-sm-0" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">27</h3>
                 <p class="result-numbers__description">Кол-во постов</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-6 col-md-3 -->
+            <!-- /.col-12 col-sm-6 col-md-3 -->
 
-            <div class="col-6 col-md-3" data-aos="fade-up">
+            <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up">
               <div class="result-numbers__item">
                 <h3 class="result-numbers__digit">2,3%</h3>
                 <p class="result-numbers__description">ER</p>
               </div>
               <!-- /.result-numbers__item -->
             </div>
-            <!-- /.col-6 col-md-3 -->
+            <!-- /.col-12 col-sm-6 col-md-3 -->
           </div>
           <!-- /.row -->
         </div>
@@ -290,7 +290,7 @@
         <div class="row">
           <h3 class="kit__heading">Логотип</h3>
 
-          <div class="col-6" data-aos="fade-up">
+          <div class="col-12 col-sm-6 mb-5 mb-sm-0" data-aos="fade-up">
             <h3 class="kit__title">Цвета</h3>
             <div class="kit__color kit-color">
               <div style="--color-hex: #000000;" class="kit-color__item">
@@ -322,7 +322,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-5 offset-1" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-12 col-sm-5 offset-0 offset-sm-1" data-aos="fade-up" data-aos-delay="400">
             <h3 class="kit__title">Шрифты</h3>
             <div class="kit__font kit-font">
               <div class="kit-font__item">
@@ -352,7 +352,7 @@
         <div class="row">
           <h3 class="kit__heading">Сайт</h3>
 
-          <div class="col-6" data-aos="fade-up">
+          <div class="col-12 col-sm-6 mb-5 mb-sm-0" data-aos="fade-up">
             <h3 class="kit__title">Цвета</h3>
             <div class="kit__color kit-color">
               <div style="--color-hex: #000000;" class="kit-color__item">
@@ -384,7 +384,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-5 offset-1" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-12 col-sm-5 offset-0 offset-sm-1" data-aos="fade-up" data-aos-delay="400">
             <h3 class="kit__title">Шрифты</h3>
             <div class="kit__font kit-font">
               <div class="kit-font__item">

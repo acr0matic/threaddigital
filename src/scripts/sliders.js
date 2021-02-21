@@ -1,8 +1,8 @@
 const projectSlider = new Swiper('.project-slider', {
   // Optional parameters
   loop: true,
-  spaceBetween: 40,
-  slidesPerView: 6,
+  spaceBetween: 30,
+  slidesPerView: 5,
 
   autoplay: {
     delay: 1000,
@@ -10,6 +10,11 @@ const projectSlider = new Swiper('.project-slider', {
   },
 
   breakpoints: {
+    568: {
+      slidesPerView: 6,
+      spaceBetween: 40,
+    },
+
     996: {
       slidesPerView: 8,
     },
@@ -31,7 +36,7 @@ const feedbackSlider = new Swiper('.feedback-slider', {
 })
 
 const stagesSlider = new Swiper('.stages-slider', {
-  slidesPerView: 2,
+  slidesPerView: 'auto',
   grabCursor: true,
   spaceBetween: 30,
 
@@ -41,6 +46,10 @@ const stagesSlider = new Swiper('.stages-slider', {
   },
 
   breakpoints: {
+    560: {
+      slidesPerView: 2,
+    },
+
     991: {
       slidesPerView: 3,
     }

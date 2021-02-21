@@ -20,4 +20,8 @@
   @include breakpoint($breakpoint-tablet-large) {
     font-size: $font-size-12;
   }
+
+  @include breakpoint($breakpoint-mobile-large) {
+    border-radius: 10px;
+  }
 }

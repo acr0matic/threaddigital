@@ -1,4 +1,8 @@
 .team-card {
+  @include breakpoint($breakpoint-tablet) {
+    line-height: 24px;
+  }
+
   &__photo {
     position: relative;
     border-radius: 16px;
@@ -64,6 +68,10 @@
     align-items: center;
 
     font-size: $font-size-13;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-14;
+    }
 
     &:hover {
       .team-card__icon path {

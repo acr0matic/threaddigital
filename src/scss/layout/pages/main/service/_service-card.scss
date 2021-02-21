@@ -76,6 +76,10 @@
     @include breakpoint($breakpoint-laptop) {
       font-size: $font-size-9;
     }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-bottom: 10px;
+    }
   }
 
   &__description {
@@ -197,6 +201,10 @@
 
         @include breakpoint($breakpoint-tablet) {
           margin-top: 65%;
+        }
+
+        @include breakpoint(max-width 525px) {
+          margin-top: 280px;
         }
       }
     }

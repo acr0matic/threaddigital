@@ -5,6 +5,10 @@
     flex-wrap: wrap;
   }
 
+  @include breakpoint($breakpoint-mobile-large) {
+    justify-content: space-between;
+  }
+
   &__item {
     @include flex($justify: center);
     width: 20%;
@@ -32,11 +36,20 @@
       height: 120px;
     }
 
+    @include breakpoint($breakpoint-mobile-large) {
+      border-radius: 16px;
+      width: 22%;
+    }
+
     &:not(:nth-child(5n)) {
       margin-right: 40px;
 
       @include breakpoint($breakpoint-computer) {
         margin-right: 20px;
+      }
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin-right: 0;
       }
     }
   }

@@ -2,6 +2,10 @@
   &__prev,
   &__next {
     top: 55%;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 
   &__prev {
@@ -9,6 +13,10 @@
 
     @include breakpoint($breakpoint-computer) {
       left: -20px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      left: 10px;
     }
 
     &::after {
@@ -21,6 +29,10 @@
 
     @include breakpoint($breakpoint-computer) {
       right: -20px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      right: 10px;
     }
 
     &::after {

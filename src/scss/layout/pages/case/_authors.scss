@@ -3,6 +3,10 @@
 
   &__item {
     margin-top: 80px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      text-align: center;
+    }
   }
 
   &__title {

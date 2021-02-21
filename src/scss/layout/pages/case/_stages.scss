@@ -7,6 +7,16 @@
     @include breakpoint($breakpoint-computer) {
       padding-top: 125px;
     }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      padding-top: 85px;
+    }
+
+    .swiper-slide {
+      @include breakpoint($breakpoint-mobile-large) {
+        width: 80%;
+      }
+    }
   }
 
   &__item {
@@ -77,6 +87,17 @@
       height: 90px;
 
       font-size: $font-size-4;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      top: -40px;
+
+      width: 70px;
+      height: 70px;
+
+      border-width: 5px;
+
+      font-size: $font-size-5;
     }
   }
 

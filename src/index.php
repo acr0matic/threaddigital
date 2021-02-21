@@ -6,7 +6,7 @@
     <div class="container">
       <div class="hero">
         <div class="row align-items-center">
-          <div class="col-10 col-lg-6">
+          <div class="col-12 col-sm-10 col-lg-6">
             <div class="hero__content">
               <h1 class="hero__title section__title">
                 Digital агентство
