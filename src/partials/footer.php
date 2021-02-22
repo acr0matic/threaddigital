@@ -224,6 +224,38 @@
  </div>
  <!-- /.modal -->
 
+ <div class="modal modal-accept micromodal-slide" id="modal-accept">
+   <div class="modal__overlay">
+     <div class="modal__wrapper">
+       <div class="modal__container container">
+         <div class="modal__header">
+           <h2 class="modal__title mb-2">
+             Спасибо!
+             <br>
+             Скоро с вами свяжемся
+           </h2>
+
+           <button class="modal__close" data-micromodal-close>
+             <svg data-micromodal-close width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <rect data-micromodal-close x="3.56885" y="0.554199" width="40" height="5" rx="2.5" transform="rotate(45 3.56885 0.554199)" fill="white" />
+               <rect data-micromodal-close x="0.0336914" y="28.8384" width="40" height="5" rx="2.5" transform="rotate(-45 0.0336914 28.8384)" fill="white" />
+             </svg>
+           </button>
+         </div>
+
+         <div class="modal__content">
+
+         </div>
+         <!-- /.modal__content -->
+       </div>
+       <!-- /.modal__container -->
+     </div>
+     <!-- /.modal__wrapper -->
+   </div>
+   <!-- /.modal__overlay -->
+ </div>
+ <!-- /.modal -->
+
  <!-- Скрипты -->
  <!-- build:js -->
  <script src="scripts/libraries/swiper.js"></script>

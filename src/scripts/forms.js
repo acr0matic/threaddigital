@@ -65,8 +65,10 @@ forms.forEach(form => {
         let result = await response.json();
         console.log(result)
 
-        if (formType === 'question') MicroModal.show('modal-question', modalParams);
-        else MicroModal.show('modal-accept', modalParams);
+        MicroModal.close('modal-callback');
+        MicroModal.show('modal-accept', modalParams);
+
+        if (window.matchMedia("(max-width: 580px)").matches) setTimeout(() => MicroModal.close('modal-accept'), 1500);
 
         ClearForm(fields);
       }

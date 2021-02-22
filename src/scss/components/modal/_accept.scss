@@ -1,0 +1,34 @@
+.modal-accept {
+  .modal__overlay {
+    z-index: 1000;
+  }
+
+  .modal__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal__header {
+    border: 5px solid #eb5757;
+    border-radius: 26px;
+    padding: 55px;
+
+    @include breakpoint($breakpoint-tablet-large) {
+      padding: 30px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      border-width: 2px;
+      padding: 25px;
+    }
+  }
+
+  .modal__title {
+    text-align: center;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-9;
+    }
+  }
+}
