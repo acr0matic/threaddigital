@@ -27,3 +27,11 @@ callbackButton.forEach(button => {
 jarallax(document.querySelectorAll('.jarallax'), {
   speed: 0.2
 });
+
+// Прелоадер
+const preloader = document.getElementById('preloader');
+document.addEventListener("DOMContentLoaded", function () {
+  window.setTimeout(function () {
+    preloader.classList.add('preloader--hide');
+  }, 2500);
+});
