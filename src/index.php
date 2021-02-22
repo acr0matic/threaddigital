@@ -599,8 +599,9 @@
 
         <div class="portfolio__grid portfolio-grid">
           <div class="portfolio-grid__item portfolio-grid__item--1" data-aos="zoom-in">
-            <img class="portfolio-grid__image" src="img/projects/pavlovo.jpg" alt="">
+            <a class="stretched-link" href=""></a>
 
+            <img class="portfolio-grid__image" src="img/projects/pavlovo.jpg" alt="">
             <div class="portfolio-grid__categories">
               <div class="portfolio-grid__tag portfolio__color--purple">
                 Дизайн
@@ -628,32 +629,68 @@
           <!-- /.portfolio-grid__item -->
 
           <div class="portfolio-grid__item portfolio-grid__item--2" data-aos="zoom-in">
+            <a class="stretched-link" href=""></a>
+
             <img class="portfolio-grid__image" src="img/projects/tatarka.jpg" alt="">
+            <div class="portfolio-grid__categories">
+
+            </div>
+            <!-- /.portfolio-grid__categories -->
           </div>
           <!-- /.portfolio-grid__item -->
 
           <div class="portfolio-grid__item portfolio-grid__item--3" data-aos="zoom-in">
+            <a class="stretched-link" href=""></a>
+
             <img class="portfolio-grid__image" src="img/projects/hookhelp.jpg" alt="">
+            <div class="portfolio-grid__categories">
+
+            </div>
+            <!-- /.portfolio-grid__categories -->
           </div>
           <!-- /.portfolio-grid__item -->
 
           <div class="portfolio-grid__item portfolio-grid__item--4" data-aos="zoom-in">
+            <a class="stretched-link" href=""></a>
+
             <img class="portfolio-grid__image" src="img/projects/aqulla.jpg" alt="">
+            <div class="portfolio-grid__categories">
+
+            </div>
+            <!-- /.portfolio-grid__categories -->
           </div>
           <!-- /.portfolio-grid__item -->
 
           <div class="portfolio-grid__item portfolio-grid__item--5" data-aos="zoom-in">
+            <a class="stretched-link" href=""></a>
+
             <img class="portfolio-grid__image" src="img/projects/fasgrad.jpg" alt="">
+            <div class="portfolio-grid__categories">
+
+            </div>
+            <!-- /.portfolio-grid__categories -->
           </div>
           <!-- /.portfolio-grid__item -->
 
           <div class="portfolio-grid__item portfolio-grid__item--6" data-aos="zoom-in">
+            <a class="stretched-link" href=""></a>
+
             <img class="portfolio-grid__image" src="img/projects/veniki.jpg" alt="">
+            <div class="portfolio-grid__categories">
+
+            </div>
+            <!-- /.portfolio-grid__categories -->
           </div>
           <!-- /.portfolio-grid__item -->
 
           <div class="portfolio-grid__item portfolio-grid__item--7" data-aos="zoom-in">
+            <a class="stretched-link" href=""></a>
+
             <img class="portfolio-grid__image" src="img/projects/travel.jpg" alt="">
+            <div class="portfolio-grid__categories">
+
+            </div>
+            <!-- /.portfolio-grid__categories -->
           </div>
           <!-- /.portfolio-grid__item -->
         </div>
