@@ -1,7 +1,7 @@
 const forms = document.querySelectorAll('form');
 
 forms.forEach(form => {
-  const formType = form.getAttribute('data-type');
+  const formType = form.getAttribute('data-form');
   const checkbox = form.querySelector('input[type=checkbox]');
   const submit = form.querySelector('button');
 
@@ -45,14 +45,25 @@ forms.forEach(form => {
       formData = new FormData(form);
       formData.append('form_type', formType);
 
+      if (formType === 'callback') {
+        const fieldsGroup = form.querySelectorAll('.input__group input[type=checkbox]');
+        let selectedArray = [];
+
+        fieldsGroup.forEach(field => {
+          if (field.checked) selectedArray.push(field.parentElement.querySelector('.checkbox__label').innerHTML);
+        });
+
+        formData.append('user_select', selectedArray);
+      }
+
       try {
         let response = await fetch('php/mail.php', {
           method: 'POST',
           body: formData,
         });
 
-        // let result = await response.json();
-        // console.log(result)
+        let result = await response.json();
+        console.log(result)
 
         if (formType === 'question') MicroModal.show('modal-question', modalParams);
         else MicroModal.show('modal-accept', modalParams);

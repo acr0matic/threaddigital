@@ -1032,12 +1032,12 @@
       <!-- /.section__heading -->
 
       <div class="callback">
-        <form action="" class="form form-callback">
+        <form data-form="audit" action="" class="form form-callback">
           <div class="row mb-0 mb-md-5">
             <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
                 <span class="input__label input__label--required">Ваше имя</span>
-                <input data-required class="input__field" type="text" name="" placeholder="Андрей Евгеньевич">
+                <input data-required class="input__field" type="text" name="user_name" placeholder="Андрей Евгеньевич">
               </label>
             </div>
             <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
@@ -1045,7 +1045,7 @@
             <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
                 <span class="input__label input__label--required">Телефон</span>
-                <input data-required class="input__field" type="tel" name="" placeholder="8-900-222-22-22">
+                <input data-required class="input__field" type="tel" name="user_phone" placeholder="8-900-222-22-22">
               </label>
             </div>
             <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
@@ -1053,7 +1053,7 @@
             <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
                 <span class="input__label input__label--required">Ваш E-mail</span>
-                <input data-required class="input__field" type="email" name="" placeholder="bikov-ag@mail.ru">
+                <input data-required class="input__field" type="email" name="user_email" placeholder="bikov-ag@mail.ru">
               </label>
             </div>
             <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
@@ -1064,20 +1064,20 @@
             <div class="col-12 col-md-6">
               <label class="input">
                 <span class="input__label">Ваш вопрос</span>
-                <textarea class="input__field input__field--area" type="text" name="" placeholder="Хочу красивый лендос"></textarea>
+                <textarea class="input__field input__field--area" type="text" name="user_question" placeholder="Хочу красивый лендос"></textarea>
               </label>
             </div>
 
             <div class="col-12 col-md-6">
               <div class="form__action">
                 <label class="checkbox mb-4">
-                  <input type="checkbox">
+                  <input type="checkbox" name="policy">
                   <span class="checkbox__mark me-2"></span>
                   <span class="checkbox__label">Согласен с <a href="policy.html" class="checkbox__policy">политикой обработки данных</a></span>
                 </label>
 
                 <label class="checkbox mb-4">
-                  <input type="checkbox">
+                  <input type="checkbox" name="user_callback">
                   <span class="checkbox__mark me-2"></span>
                   <span class="checkbox__label">Перезвонить</span>
                 </label>
