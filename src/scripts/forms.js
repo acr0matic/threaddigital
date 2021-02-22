@@ -18,6 +18,13 @@ forms.forEach(form => {
     });
   }
 
+  fields.forEach(field => {
+    field.addEventListener('input', () => {
+      if (field.value) field.classList.add('input__field--value');
+      else field.classList.remove('input__field--value');
+    });
+  });
+
   requiredFields.forEach(field => {
     field.addEventListener('click', () => {
       field.classList.remove('input__field--error')
