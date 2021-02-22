@@ -1,6 +1,19 @@
 #callback {
   margin-top: 75px;
 
+  @include breakpoint($breakpoint-laptop-large) {
+    .section__heading {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    .section__heading {
+      width: 100%;
+    }
+  }
+
   @include breakpoint($breakpoint-mobile-large) {
     margin-top: 0;
   }

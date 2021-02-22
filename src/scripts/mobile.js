@@ -35,3 +35,11 @@ mobileItems.forEach(item => {
 setTimeout(() => animatedMobile.forEach(item => {
   item.classList.remove('aos-animate');
 }), 100);
+
+window.addEventListener('scroll', () => {
+  if (!mobileMenu.classList.contains('mobile-menu--open')) {
+    setTimeout(() => animatedMobile.forEach(item => {
+      item.classList.remove('aos-animate');
+    }), 100);
+  }
+})
