@@ -6,7 +6,7 @@
       height: 535px;
     }
 
-    @include breakpoint($breakpoint-computer) {
+    @include breakpoint($breakpoint-tablet-large) {
       height: 365px;
     }
   }
@@ -20,7 +20,7 @@
       height: 535px;
     }
 
-    @include breakpoint($breakpoint-computer) {
+    @include breakpoint($breakpoint-tablet-large) {
       height: 405px;
     }
 

@@ -1,15 +1,15 @@
 #callback {
   margin-top: 75px;
 
-  @include breakpoint($breakpoint-laptop-large) {
-    .section__heading {
-      width: 90%;
-      margin: 0 auto;
-    }
-  }
+  .section__heading {
+    width: 70%;
+    margin: 0 auto;
 
-  @include breakpoint($breakpoint-tablet) {
-    .section__heading {
+    @include breakpoint($breakpoint-laptop-large) {
+      width: 90%;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }

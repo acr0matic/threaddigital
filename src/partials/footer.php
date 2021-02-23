@@ -99,8 +99,8 @@
 
                <div class="col-12 col-md-4 mb-4 mb-md-0">
                  <label class="input">
-                   <span class="input__label input__label--required">Телефон</span>
-                   <input data-required class="input__field" type="tel" name="user_phone" placeholder="8-900-222-22-22">
+                   <span class="input__label">Телефон</span>
+                   <input class="input__field" type="tel" name="user_phone" placeholder="8-900-222-22-22">
                  </label>
                </div>
                <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->
@@ -272,7 +272,6 @@
  <script src="scripts/header.js"></script>
  <script src="scripts/service-card.js"></script>
  <script src="scripts/team.js"></script>
- <script src="scripts/feedback.js"></script>
  <script src="scripts/footer.js"></script>
  <script src="scripts/forms.js"></script>
  <script src="scripts/mobile.js"></script>

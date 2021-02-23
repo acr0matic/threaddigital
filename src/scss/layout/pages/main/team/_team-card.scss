@@ -91,13 +91,19 @@
     font-size: $font-size-13;
 
     @include breakpoint($breakpoint-mobile-large) {
-      font-size: $font-size-14;
+      font-size: $font-size-14 - 2;
     }
 
     &:hover {
       .team-card__icon path {
         fill: #d70d5b;
       }
+    }
+  }
+
+  &__icon {
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 16px;
     }
   }
 

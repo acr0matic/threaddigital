@@ -20,7 +20,7 @@
     }
 
     &:checked ~ .checkbox__mark::after {
-      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
     }
   }
 
@@ -49,15 +49,14 @@
       border-radius: 2px;
 
       display: block;
-      width: 15px;
-      height: 14px;
+      width: 100%;
+      height: 100%;
 
       background: #da2e2b;
 
-      opacity: 0;
 
-      transform: translate(-48%, -51%);
-      transition: opacity 0.15s ease;
+      transform: translate(-50%, -50%) scale(0);
+      transition: all 0.15s ease;
     }
   }
 

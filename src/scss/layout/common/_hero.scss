@@ -6,7 +6,7 @@
   position: relative;
   margin-top: 245px;
 
-  @include breakpoint($breakpoint-laptop-large) {
+  @include breakpoint($breakpoint-computer) {
     margin-top: 180px;
   }
 

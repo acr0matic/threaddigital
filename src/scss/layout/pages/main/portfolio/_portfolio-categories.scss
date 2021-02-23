@@ -12,6 +12,7 @@
 
   @include breakpoint($breakpoint-tablet-large) {
     flex-wrap: nowrap;
+    margin-top: 30px;
     padding-bottom: 0;
   }
 

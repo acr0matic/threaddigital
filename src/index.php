@@ -5,7 +5,7 @@
   <section id="hero">
     <div class="container">
       <div class="hero">
-        <div class="row align-items-center">
+        <div class="row">
           <div class="col-12 col-sm-10 col-lg-6">
             <div class="hero__content">
               <h1 class="hero__title section__title">
@@ -732,22 +732,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="feedback__item feedback-item">
-                  <div class="feedback-item__info">
-                    <img src="img/page/main/feedback/avatar.png" alt="" class="feedback-item__photo me-2">
-                    <div class="feedback-item__author">
-                      <span class="feedback-item__name mb-1">Иван Иванов</span>
-                      <span class="feedback-item__role">Плющенный</span>
-                    </div>
-                    <!-- /.feedback-item__author -->
-                  </div>
-                  <!-- /.feedback-item__info -->
-
-                  <div class="feedback-item__content">
-                    <video class="feedback-item__video" muted loop>
-                      <source src="video/vertical.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <!-- /.feedback-item__content -->
+                  <iframe class="feedback-item__video" width="50%" height="20%" src="https://www.youtube.com/embed/Dgs2SYBPKMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <!-- /.feedback__item -->
               </div>
@@ -755,22 +740,15 @@
 
               <div class="swiper-slide">
                 <div class="feedback__item feedback-item">
-                  <div class="feedback-item__info">
-                    <img src="img/page/main/feedback/avatar.png" alt="" class="feedback-item__photo me-2">
-                    <div class="feedback-item__author">
-                      <span class="feedback-item__name mb-1">Иван Иванов</span>
-                      <span class="feedback-item__role">Плющенный</span>
-                    </div>
-                    <!-- /.feedback-item__author -->
-                  </div>
-                  <!-- /.feedback-item__info -->
+                  <iframe class="feedback-item__video" width="50%" height="20%" src="https://www.youtube.com/embed/vjVkXlxsO8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- /.feedback__item -->
+              </div>
+              <!-- /.swiper-slide -->
 
-                  <div class="feedback-item__content">
-                    <video class="feedback-item__video" loop>
-                      <source src="video/horizontal.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <!-- /.feedback-item__content -->
+              <div class="swiper-slide">
+                <div class="feedback__item feedback-item">
+                  <iframe class="feedback-item__video" width="50%" height="20%" src="https://www.youtube.com/embed/YJVmu6yttiw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <!-- /.feedback__item -->
               </div>
@@ -1052,8 +1030,8 @@
 
             <div class="col-12 col-md-4 mb-4 mb-md-0">
               <label class="input">
-                <span class="input__label input__label--required">Ваш E-mail</span>
-                <input data-required class="input__field" type="email" name="user_email" placeholder="bikov-ag@mail.ru">
+                <span class="input__label">Ваш E-mail</span>
+                <input class="input__field" type="email" name="user_email" placeholder="bikov-ag@mail.ru">
               </label>
             </div>
             <!-- /.col-12 col-md-4 mb-4 mb-md-0 -->

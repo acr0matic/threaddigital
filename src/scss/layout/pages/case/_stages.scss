@@ -32,11 +32,10 @@
     height: 530px;
 
     @include breakpoint($breakpoint-computer) {
-      width: 350px;
       height: 350px;
     }
 
-    @include breakpoint($breakpoint-laptop) {
+    @include breakpoint($breakpoint-laptop-large) {
       width: 100%;
       height: 100%;
     }

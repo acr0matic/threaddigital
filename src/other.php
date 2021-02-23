@@ -7,7 +7,7 @@
 
       <div class="other">
         <div class="row">
-          <div class="col-12 col-md-6 mb-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5">
             <div class="other__item">
               <img src="img/page/other/1.jpg" alt="" class="other__image">
               <div class="other__content">
@@ -20,7 +20,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 mb-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5">
             <div class="other__item">
               <img src="img/page/other/1.jpg" alt="" class="other__image">
               <div class="other__content">
@@ -33,7 +33,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 mb-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5">
             <div class="other__item">
               <img src="img/page/other/1.jpg" alt="" class="other__image">
               <div class="other__content">
@@ -46,7 +46,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 mb-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5">
             <div class="other__item">
               <img src="img/page/other/1.jpg" alt="" class="other__image">
               <div class="other__content">

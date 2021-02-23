@@ -1,8 +1,8 @@
 .other {
   &__item {
     position: relative;
-    border-radius: 32px;
     overflow: hidden;
+    border-radius: 32px;
 
     &::after {
       content: "";
@@ -43,6 +43,7 @@
 
   &__image {
     width: 100%;
+    border-radius: 32px;
   }
 
   &__content {
@@ -63,6 +64,8 @@
       visibility: visible;
 
       position: relative;
+
+      padding: 10px;
     }
   }
 
@@ -70,25 +73,17 @@
     margin-bottom: 12px;
     font-weight: $weight-bold;
 
-    font-size: $font-size-5;
+    font-size: $font-size-8;
 
-    @include breakpoint($breakpoint-laptop-large) {
-      font-size: $font-size-8;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet-large) {
       font-size: $font-size-10;
     }
   }
 
   &__description {
-    font-size: $font-size-8;
+    font-size: $font-size-12;
 
-    @include breakpoint($breakpoint-laptop-large) {
-      font-size: $font-size-12;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet-large) {
       font-size: $font-size-13;
     }
   }
