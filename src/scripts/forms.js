@@ -5,16 +5,26 @@ forms.forEach(form => {
   const checkbox = form.querySelector('input[type=checkbox]');
   const submit = form.querySelector('button');
 
-  const fields = form.querySelectorAll('.input__field, textarea');
+  const fields = form.querySelectorAll('.input__field, textarea, .input__group input[type=checkbox]');
   const requiredFields = form.querySelectorAll('[data-required]');
 
   let formData;
+
+  const userCallback = form.querySelector('[name=user_callback]');
+  if (userCallback) userCallback.setAttribute('disabled', 'disabled');
 
   const phone = form.querySelector('input[type=tel]');
   if (phone) {
     IMask(phone, {
       mask: '+{7} (000) 000-00-00',
       prepare: (appended, masked) => (appended === '8' && masked.value === '') ? '' : appended
+    });
+  }
+
+  if (userCallback) {
+    phone.addEventListener('input', () => {
+      if (phone.value == '') userCallback.setAttribute('disabled', 'disabled');
+      else userCallback.removeAttribute('disabled');
     });
   }
 
@@ -57,18 +67,29 @@ forms.forEach(form => {
       }
 
       try {
-        let response = await fetch('php/mail.php', {
+        submit.setAttribute('disabled', 'disabled');
+        submit.innerHTML = 'Отправляем...'
+
+        let response = await fetch('/wp-content/themes/threaddigital/php/mail.php', {
           method: 'POST',
           body: formData,
         });
 
         let result = await response.json();
-        console.log(result)
+        if (response.ok) {
+          submit.removeAttribute('disabled');
+          submit.innerHTML = 'Отправить';
+        }
 
-        MicroModal.close('modal-callback');
+        // console.log(result)
+
+        if (document.getElementById('modal-callback').classList.contains('is-open')) MicroModal.close('modal-callback');
         MicroModal.show('modal-accept', modalParams);
 
-        if (window.matchMedia("(max-width: 580px)").matches) setTimeout(() => MicroModal.close('modal-accept'), 1500);
+        if (window.matchMedia("(max-width: 580px)").matches) {
+          if (document.getElementById('modal-callback').classList.contains('is-open'))
+            setTimeout(() => MicroModal.close('modal-accept'), 1500);
+        }
 
         ClearForm(fields);
       }
@@ -89,8 +110,10 @@ function InputValidation(inputs) {
   let isValide = false;
 
   inputs.forEach(field => {
-    if (!field.value)
-      field.classList.add('input__field--error')
+    if (!field.value) field.classList.add('input__field--error');
+    if (field.getAttribute('name') === 'user_phone')
+      if (!field.value.match(/^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){11}(\s*)?$/))
+        field.classList.add('input__field--error');
   });
 
   var BreakException = {};
@@ -110,5 +133,8 @@ function InputValidation(inputs) {
 }
 
 function ClearForm(fields) {
-  fields.forEach(field => field.value = '');
-}
+  fields.forEach(field => {
+    field.value = '';
+    field.classList.remove('input__field--value');
+  })
+};

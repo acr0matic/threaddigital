@@ -7,7 +7,7 @@
   margin-top: 245px;
 
   @include breakpoint($breakpoint-computer) {
-    margin-top: 180px;
+    margin-top: 150px;
   }
 
   @include breakpoint($breakpoint-mobile-large) {
@@ -46,6 +46,7 @@
 
     font-size: $font-size-2;
     font-family: Raleway, sans-serif;
+    font-weight: $weight-black;
 
     line-height: 68px;
 
@@ -139,21 +140,32 @@
 
   &__image {
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     right: 0;
-    bottom: 0;
+    bottom: 50%;
 
     width: 66%;
+    min-width: 910px;
     max-width: 1200px;
 
+    height: 100%;
+
+    object-fit: cover;
+
+    transform: translateY(50%);
+
     @include breakpoint($breakpoint-tablet) {
-      right: -90px;
+      left: 50%;
       width: 580px;
+
+      transform: translate(-50%, 50%);
     }
 
     @include breakpoint($breakpoint-mobile-large) {
-      bottom: 50%;
-      transform: translateY(50%);
+      bottom: 40%;
+
+      min-width: unset;
+      height: unset;
     }
   }
 }

@@ -5,7 +5,7 @@
   <section id="hero">
     <div class="container">
       <div class="hero">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-12 col-sm-10 col-lg-6">
             <div class="hero__content">
               <h1 class="hero__title section__title">
@@ -732,23 +732,10 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="feedback__item feedback-item">
-                  <iframe class="feedback-item__video" width="50%" height="20%" src="https://www.youtube.com/embed/Dgs2SYBPKMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!-- /.feedback__item -->
-              </div>
-              <!-- /.swiper-slide -->
-
-              <div class="swiper-slide">
-                <div class="feedback__item feedback-item">
-                  <iframe class="feedback-item__video" width="50%" height="20%" src="https://www.youtube.com/embed/vjVkXlxsO8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!-- /.feedback__item -->
-              </div>
-              <!-- /.swiper-slide -->
-
-              <div class="swiper-slide">
-                <div class="feedback__item feedback-item">
-                  <iframe class="feedback-item__video" width="50%" height="20%" src="https://www.youtube.com/embed/YJVmu6yttiw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="feedback-item__video">
+                    <iframe width="50%" height="20%" src="https://www.youtube.com/embed/vjVkXlxsO8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <!-- /.feedback-item__video -->
                 </div>
                 <!-- /.feedback__item -->
               </div>

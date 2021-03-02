@@ -1,15 +1,52 @@
 #case {
+  section {
+    overflow: hidden;
+  }
+
+  #hero {
+    overflow: unset;
+
+    @include breakpoint($breakpoint-tablet-large) {
+      overflow: hidden;
+    }
+  }
+
+  .hero {
+    margin-top: 130px;
+
+    @include breakpoint($breakpoint-computer) {
+      margin-top: 100px;
+    }
+
+    @include breakpoint($breakpoint-tablet-large) {
+      margin-top: 85px;
+    }
+  }
+
+  .hero__wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 70px 0;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      padding-bottom: 0;
+      padding-top: 70px;
+    }
+  }
+
   .section__description {
     margin-bottom: 75px;
   }
 
-  .hero .section__description {
+  .hero__description {
     @include breakpoint($breakpoint-mobile-large) {
-      margin-bottom: 200px;
+      margin-bottom: 250px;
     }
   }
 
   .hero__button {
+    margin-bottom: 0;
+
     @include breakpoint($breakpoint-mobile-large) {
       margin-bottom: 15px;
       width: 100%;

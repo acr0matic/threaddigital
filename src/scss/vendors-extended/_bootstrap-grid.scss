@@ -9,3 +9,16 @@
     max-width: 1640px;
   }
 }
+
+@media (min-width: 1400px) {
+  .col-2-5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (max-width: 340px) {
+  .col-fluid {
+    width: 100%;
+  }
+}

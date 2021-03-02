@@ -1,15 +1,14 @@
-/* width */
+/* purgecss start ignore */
+
 ::-webkit-scrollbar {
   width: 7px;
   height: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: $scrollbar__bg;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: $scrollbar__contoller;
   border-radius: 50px;
@@ -17,7 +16,8 @@
   transition: all 0.15s ease;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: $scrollbar__contoller--hover;
 }
+
+/* purgecss end ignore */

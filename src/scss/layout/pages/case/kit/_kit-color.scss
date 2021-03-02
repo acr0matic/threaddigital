@@ -1,17 +1,7 @@
 .kit-color {
-  display: flex;
-
-  @include breakpoint($breakpoint-tablet-large) {
-    flex-wrap: wrap;
-  }
-
-  @include breakpoint($breakpoint-mobile-large) {
-    justify-content: space-between;
-  }
-
   &__item {
     @include flex($justify: center);
-    width: 20%;
+    width: 100%;
     height: 250px;
 
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -29,29 +19,12 @@
     }
 
     @include breakpoint($breakpoint-tablet-large) {
-      width: 25%;
       margin-bottom: 15px;
     }
 
     @include breakpoint($breakpoint-tablet) {
       height: 120px;
-    }
-
-    @include breakpoint($breakpoint-mobile-large) {
       border-radius: 16px;
-      width: 22%;
-    }
-
-    &:not(:nth-child(5n)) {
-      margin-right: 40px;
-
-      @include breakpoint($breakpoint-computer) {
-        margin-right: 20px;
-      }
-
-      @include breakpoint($breakpoint-mobile-large) {
-        margin-right: 0;
-      }
     }
   }
 }
