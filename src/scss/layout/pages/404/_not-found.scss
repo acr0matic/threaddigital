@@ -1,0 +1,102 @@
+#not-found {
+  position: relative;
+  height: 100vh;
+  min-height: 765px;
+  overflow: hidden;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    margin-top: 90px;
+  }
+
+  &__title {
+    margin-left: auto;
+    font-feature-settings: "pnum" on, "lnum" on;
+    font-size: 308px;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: 258px;
+    }
+
+    @include breakpoint($breakpoint-tablet-large) {
+      font-size: 188px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-left: unset;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: 92px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 215px;
+
+    font-size: 54px;
+    text-align: center;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: 42px;
+    }
+
+    @include breakpoint($breakpoint-tablet-large) {
+      font-size: 36px;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: 20px;
+    }
+  }
+
+  &__action {
+    position: relative;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    max-width: 500px;
+
+    transform: translate(-50%, -60%);
+
+    @include breakpoint($breakpoint-tablet-large) {
+      max-width: 400px;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+
+      transform: translate(-50%, -65%);
+    }
+  }
+
+  &__button {
+    padding: 22px 70px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+}

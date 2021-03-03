@@ -12,7 +12,7 @@
 @import "common/nav-mobile";
 
 // Фрагметы главной страницы
-@import "pages/main/project.scss";
+@import "pages/main/project";
 @import "pages/main/service/main";
 @import "pages/main/team/main";
 @import "pages/main/feedback/main";
@@ -26,8 +26,10 @@
 @import "pages/case/stages";
 @import "pages/case/result/main";
 @import "pages/case/kit/main";
-@import "pages/case/authors.scss";
+@import "pages/case/authors";
 
 @import "pages/other/other.scss";
 
 @import "pages/privacy/privacy";
+
+@import "pages/404/not-found";
