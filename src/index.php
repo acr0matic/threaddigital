@@ -31,7 +31,7 @@
           <div class="col-5 mx-auto me-5 me-xl-auto">
             <div class="hero__motion">
               <video class="hero__video" poster="video/hero_poster.jpg" autoplay muted loop playisline>
-                <source src="video/hero.mp4" type="video/mp4">
+                <source src="video/hero.webm" type="video/webm">
               </video>
             </div>
             <!-- /.hero__motion -->

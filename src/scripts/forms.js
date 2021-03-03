@@ -2,7 +2,7 @@ const forms = document.querySelectorAll('form');
 
 forms.forEach(form => {
   const formType = form.getAttribute('data-form');
-  const checkbox = form.querySelector('input[type=checkbox]');
+  const checkbox = form.querySelector('input[name=policy]');
   const submit = form.querySelector('button');
 
   const fields = form.querySelectorAll('.input__field, textarea, .input__group input[type=checkbox]');
@@ -80,8 +80,6 @@ forms.forEach(form => {
           submit.removeAttribute('disabled');
           submit.innerHTML = 'Отправить';
         }
-
-        // console.log(result)
 
         if (document.getElementById('modal-callback').classList.contains('is-open')) MicroModal.close('modal-callback');
         MicroModal.show('modal-accept', modalParams);

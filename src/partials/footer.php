@@ -207,7 +207,7 @@
 
              <div class="row">
                <div class="col-12 col-md-5">
-                 <button class="form-callback__button form__button button button-primary">Отправить</button>
+                 <button disabled class="form-callback__button form__button button button-primary">Отправить</button>
                </div>
                <!-- /.col-5 -->
              </div>

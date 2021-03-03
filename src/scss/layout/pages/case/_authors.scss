@@ -15,6 +15,11 @@
 
     @include breakpoint($breakpoint-computer) {
       margin-bottom: 15px;
+      font-size: $font-size-12;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-10;
     }
   }
 
@@ -23,5 +28,17 @@
     font-size: $font-size-8;
 
     line-height: 40px;
+
+    @include breakpoint($breakpoint-computer) {
+      margin-bottom: 15px;
+
+      font-size: $font-size-10;
+      line-height: 34px;
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-8;
+      line-height: 40px;
+    }
   }
 }
